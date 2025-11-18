@@ -1,0 +1,27 @@
+-----------------------------
+THOUGHTS ON POSSIBLE APPROACH
+-----------------------------
+
+So, we first fetch/filter Apache licensed repos as we see fit.
+
+Then, the problem is that:
+- each repo has followed an unknown development style, and
+- we're trying to see whether the commit history is consistent/inconsistent/ambiguous with TDD.
+
+It makes sense to have a sort of two-staged approach.
+1. TDD plausability
+- Among Apache repos,
+-- which have a substantial test suite? (e.g., src/test, test/)
+-- test/production file ratio?
+---> avoid spending analysis time: label as low TDD evidence / TDD not attempted.
+
+2. Fine-grained evidence search
+- For repos those that pass the first stage,
+-- iterate on production (prod) files:
+--- what commit does it first appear in,
+--- what commit does a corresponding test file first appear in (foo.java <-> fooTest.java; using `pydriller`).
+-- classify pairs of prod/test files:
+--- test commit < prod commit --> TDD
+--- test commit == prod commit --> ~TDD
+--- test commit > prod commit --> !TDD
+-- can then aggregate proportions of files across these categories.
