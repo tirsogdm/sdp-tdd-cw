@@ -1,0 +1,5 @@
+https://github.com/apache/commons-lang
+https://github.com/apache/commons-io
+https://github.com/apache/commons-collections
+https://github.com/apache/commons-math
+https://github.com/apache/maven
