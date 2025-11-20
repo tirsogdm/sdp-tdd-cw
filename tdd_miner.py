@@ -112,6 +112,7 @@ def mine_repos():
                             seen_tests[class_name] = {
                                 "hash": commit.hash,
                                 "date": commit_date,
+                                "filename": roles["TEST"],
                             }
                             seen_code[class_name] = {
                                 "hash": commit.hash,
@@ -151,7 +152,8 @@ def mine_repos():
                             diff = (
                                 commit_date - prev_info["date"]
                             ).total_seconds() / 3600.0
-                            guessed_test_name = f"{class_name}Test.java"
+                            prev_info = seen_tests[class_name]
+                            actual_test_name = prev_info["filename"]
 
                             writer.writerow(
                                 [
@@ -162,7 +164,7 @@ def mine_repos():
                                     len(commit.modified_files),
                                     "STRICT_TDD",
                                     class_name,
-                                    guessed_test_name,
+                                    actual_test_name,
                                     round(diff, 2),
                                     prev_info["hash"],
                                 ]
@@ -174,9 +176,11 @@ def mine_repos():
 
                         # Update Memory for singles
                         if "TEST" in roles:
+                            actual_test_filename = roles.get("TEST")
                             seen_tests[class_name] = {
                                 "hash": commit.hash,
                                 "date": commit_date,
+                                "filename": actual_test_filename,
                             }
                         if "CODE" in roles:
                             seen_code[class_name] = {
