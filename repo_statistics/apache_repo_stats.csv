@@ -456,7 +456,7 @@ couchdb-futon,JavaScript,4,9,895.0,2008-03-28 23:32:19+00:00,2015-03-14 18:54:34
 couchdb-goldrush,Erlang,2,5,23.0,2012-04-23 13:41:53+00:00,2014-01-24 00:22:07+00:00,640.0
 couchdb-jquery-couch,JavaScript,11,18,90.0,2008-04-15 00:07:08+00:00,2016-05-12 12:31:10+00:00,2949.0
 couchdb-lager,Erlang,3,8,453.0,2011-06-24 17:31:20+00:00,2021-01-06 13:28:57+00:00,3483.0
-couchdb-query-server-spidermonkey,,2,0,,,,
+couchdb-query-server-spidermonkey,,2,0,0.0,,,
 couchdb-meck,Erlang,4,5,554.0,2010-05-03 13:51:33+00:00,2025-10-12 09:38:08+00:00,5640.0
 couchdb-query-server-node,JavaScript,5,7,12.0,2013-09-21 13:42:47+00:00,2013-10-04 13:06:51+00:00,12.0
 cxf,Java,903,1445,19097.0,2008-04-23 17:50:00+00:00,2025-11-21 00:57:33+00:00,6420.0
@@ -473,7 +473,7 @@ cxf-xjc-utils,Java,19,35,457.0,2010-02-04 21:43:37+00:00,2025-11-17 08:06:46+00:
 struts-examples,Java,440,561,1624.0,2006-05-07 04:48:10+00:00,2025-10-04 09:00:06+00:00,7090.0
 samza-hello-samza,Java,113,134,218.0,2013-07-02 19:46:04+00:00,2021-04-02 01:28:38+00:00,2830.0
 cordova-plugin-statusbar,Objective-C,618,490,317.0,2013-10-05 01:03:18+00:00,2024-08-20 07:25:39+00:00,3972.0
-incubator-olingo-odata3-js,,1,0,,,,
+incubator-olingo-odata3-js,,1,0,0.0,,,
 streams,Java,78,45,1819.0,2012-12-10 21:44:02+00:00,2024-02-10 17:31:41+00:00,4078.0
 rave,Java,15,11,1555.0,2011-03-16 13:25:01+00:00,2015-01-21 19:23:32+00:00,1407.0
 incubator-tajo,Java,26,15,1192.0,2011-12-09 11:39:47+00:00,2014-03-20 09:49:22+00:00,831.0
@@ -556,8 +556,8 @@ commons-text,Java,367,272,2608.0,2014-11-11 19:42:39+00:00,2025-11-21 14:44:48+0
 couchdb-setup,Erlang,10,13,64.0,2014-10-31 14:37:29+00:00,2017-07-30 21:15:08+00:00,1003.0
 xmlgraphics-fop-pdf-images,Java,14,2,250.0,2012-03-23 15:26:56+00:00,2025-10-01 11:45:53+00:00,4939.0
 lens,Java,62,94,2449.0,2013-05-23 06:47:52+00:00,2019-11-05 06:40:42+00:00,2356.0
-ant-ivy-site-styles,,1,0,,,,
-incubator-argus,,1,0,,,,
+ant-ivy-site-styles,,1,0,0.0,,,
+incubator-argus,,1,0,0.0,,,
 gobblin,Java,2251,750,6520.0,2014-02-04 23:07:00+00:00,2025-11-20 06:29:40+00:00,4306.0
 incubator-retired-tamaya,Java,45,32,1575.0,2014-11-22 14:28:01+00:00,2019-11-12 20:52:35+00:00,1816.0
 grails-geb,,11,9,371.0,2014-12-11 00:35:11+00:00,2025-04-22 14:36:06+00:00,3785.0
@@ -618,13 +618,13 @@ cordova-discuss,,20,28,146.0,2015-04-10 19:28:59+00:00,2023-04-05 19:19:44+00:00
 incubator-retired-openaz,Java,17,25,66.0,2015-04-13 15:36:48+00:00,2016-08-28 21:30:55+00:00,503.0
 struts-archive,HTML,1,4,792.0,2005-08-31 01:15:01+00:00,2022-04-23 08:39:06+00:00,6079.0
 groovy,Java,5397,1913,21982.0,2003-08-28 18:48:39+00:00,2025-11-21 16:39:14+00:00,8120.0
-incubator-parquet-cpp,,1,0,,,,
+incubator-parquet-cpp,,1,0,0.0,,,
 airflow,Python,43275,15966,34381.0,2014-10-06 21:29:38+00:00,2025-11-21 15:34:43+00:00,4063.0
 incubator-retired-mrql,Java,17,15,169.0,2012-09-11 18:26:07+00:00,2017-08-22 20:54:08+00:00,1806.0
 incubator-retired-htrace,Java,106,84,605.0,2012-07-25 01:05:29+00:00,2018-04-11 20:37:33+00:00,2086.0
-incubator-parquet-mr,,1,0,,,,
-incubator-parquet-format,,1,0,,,,
-couchdb-javascript-tests,,2,0,,,,
+incubator-parquet-mr,,1,0,0.0,,,
+incubator-parquet-format,,1,0,0.0,,,
+couchdb-javascript-tests,,2,0,0.0,,,
 sedona,Java,2244,743,2319.0,2015-04-24 18:01:29+00:00,2025-11-16 07:28:39+00:00,3858.0
 couchdb-erlang-tests,Erlang,2,3,7.0,2016-03-16 18:14:46+00:00,2016-05-24 18:28:52+00:00,69.0
 geode,Java,2328,692,11309.0,2015-04-28 21:37:16+00:00,2025-11-19 11:55:25+00:00,3857.0
@@ -664,9 +664,9 @@ couchdb-docker,Dockerfile,282,144,288.0,2013-12-18 13:27:23+00:00,2025-11-11 19:
 superset,TypeScript,69062,16204,18073.0,2015-07-02 22:16:59+00:00,2025-11-21 15:05:48+00:00,3794.0
 incubator-retired-cotton,Python,91,22,56.0,2015-04-30 22:50:15+00:00,2015-12-10 14:09:10+00:00,223.0
 aurora-packaging,Shell,22,26,101.0,2015-06-15 14:31:22+00:00,2019-12-17 05:29:38+00:00,1645.0
-incubator-ignite,,2,0,,,,
+incubator-ignite,,2,0,0.0,,,
 couchdb-peruser,Erlang,8,6,54.0,2013-08-01 01:30:54+00:00,2016-08-26 09:00:41+00:00,1121.0
-incubator-lens,,1,0,,,,
+incubator-lens,,1,0,0.0,,,
 predictionio-sdk-swift,Swift,4,8,35.0,2015-02-23 15:49:25+00:00,2015-08-07 08:32:22+00:00,164.0
 nifi-site,HTML,18,53,494.0,2015-08-13 16:52:31+00:00,2025-10-06 07:26:42+00:00,3706.0
 apex-malhar,Java,133,146,6097.0,2012-08-20 23:32:32+00:00,2019-06-02 17:25:36+00:00,2476.0
@@ -730,7 +730,7 @@ shardingsphere,Java,20541,6871,47324.0,2016-01-18 12:49:26+00:00,2025-11-20 16:2
 lucene-solr,,4374,2631,34921.0,2001-09-11 21:44:36+00:00,2021-11-24 16:25:14+00:00,7378.0
 beam,Java,8373,4440,46073.0,2014-12-13 18:56:14+00:00,2025-11-21 15:59:04+00:00,3995.0
 kudu,C++,1892,661,10684.0,2012-10-11 07:06:53+00:00,2025-11-19 23:16:09+00:00,4787.0
-incubator-guacamole,,1,0,,,,
+incubator-guacamole,,1,0,0.0,,,
 incubator-milagro,HTML,42,13,182.0,2016-02-05 16:21:23+00:00,2024-03-21 14:09:39+00:00,2966.0
 incubator-retired-iota-site,CSS,0,2,10.0,2016-05-03 20:25:46+00:00,2016-07-03 04:45:58+00:00,60.0
 incubator-retired-iota,Scala,34,30,190.0,2016-02-17 01:52:54+00:00,2017-05-17 16:59:05+00:00,455.0
@@ -843,11 +843,11 @@ usergrid-nodejs,JavaScript,8,5,159.0,2015-09-10 22:25:17+00:00,2016-11-17 20:32:
 usergrid-java,Java,11,19,2.0,2016-09-02 16:37:20+00:00,2016-09-02 19:30:12+00:00,0.0
 usergrid-python,Python,7,5,2.0,2016-09-02 15:57:57+00:00,2016-09-02 19:28:14+00:00,0.0
 usergrid-swift,Swift,15,10,24.0,2016-09-01 23:50:54+00:00,2016-11-10 03:03:46+00:00,69.0
-couchdb-fauxton-server,,1,0,,,,
+couchdb-fauxton-server,,1,0,0.0,,,
 trafficcontrol,Go,1156,352,12938.0,2015-04-08 23:02:08+00:00,2025-11-04 05:13:23+00:00,3862.0
 openwhisk-client-python,,10,7,64.0,2016-02-19 22:47:33+00:00,2017-07-10 15:10:01+00:00,506.0
 roller-website,HTML,1,4,60.0,2016-09-03 22:06:40+00:00,2025-04-09 23:41:02+00:00,3140.0
-infrastructure-docker,,1,0,,,,
+infrastructure-docker,,1,0,0.0,,,
 openwhisk-sample-matos,Java,2,5,14.0,2016-08-08 20:37:00+00:00,2017-07-14 19:04:59+00:00,339.0
 creadur-site,HTML,2,2,390.0,2016-09-09 21:53:33+00:00,2025-11-09 15:41:50+00:00,3347.0
 asterixdb-bad,Java,1,1,111.0,2016-09-14 18:32:13+00:00,2020-09-19 18:25:23+00:00,1465.0
@@ -855,7 +855,7 @@ maven-resolver,Java,140,141,1478.0,2011-10-26 07:35:04+00:00,2025-11-20 20:13:41
 incubator-hivemall,Java,314,114,2037.0,2013-09-26 11:23:52+00:00,2022-09-06 15:55:16+00:00,3267.0
 incubator-hivemall-site,HTML,3,3,4.0,2016-09-23 23:07:07+00:00,2022-09-06 15:55:55+00:00,2173.0
 cordova-new-committer-and-pmc,,2,3,35.0,2016-09-20 07:37:31+00:00,2021-04-07 08:07:31+00:00,1660.0
-commons-el,,1,0,,,,
+commons-el,,1,0,0.0,,,
 incubator-spot,Python,353,226,738.0,2015-12-16 00:11:56+00:00,2023-04-21 11:59:13+00:00,2683.0
 incubator-retired-tamaya-site,CSS,1,8,276.0,2016-09-28 07:44:58+00:00,2020-09-14 11:15:51+00:00,1447.0
 opennlp-addons,Java,17,11,158.0,2013-11-14 21:24:13+00:00,2025-11-21 11:47:05+00:00,4389.0
@@ -918,7 +918,7 @@ openwebbeans-meecrowave,Java,58,29,738.0,2016-10-18 20:44:32+00:00,2025-10-08 14
 qpid-proton-j,Java,35,60,3219.0,2012-03-20 20:27:43+00:00,2024-02-13 11:22:40+00:00,4346.0
 accumulo-testing,Java,16,40,323.0,2016-12-21 20:22:55+00:00,2025-10-22 16:03:21+00:00,3226.0
 rocketmq-site,JavaScript,61,252,1033.0,2016-12-21 02:22:42+00:00,2025-08-01 09:54:07+00:00,3145.0
-incubator-eagle,,1,0,,,,
+incubator-eagle,,1,0,0.0,,,
 polygene-website,,1,1,1.0,2016-12-31 11:03:40+00:00,2016-12-31 11:03:40+00:00,0.0
 cayenne-modeler,Java,11,5,143.0,2016-03-30 20:16:27+00:00,2025-05-02 12:48:59+00:00,3319.0
 geode-examples,Java,72,77,194.0,2016-12-30 19:05:56+00:00,2023-01-20 03:42:22+00:00,2211.0
@@ -973,9 +973,9 @@ aries-jpa,Java,11,20,217.0,2015-06-16 12:47:00+00:00,2025-06-18 19:15:34+00:00,3
 groovy-user-site,Groovy,1,3,2.0,2017-04-25 22:23:07+00:00,2017-04-25 23:05:33+00:00,0.0
 qpid-broker-j,Java,66,53,9288.0,2006-09-19 22:06:50+00:00,2025-10-10 07:49:28+00:00,6960.0
 groovy-dev-site,HTML,4,6,704.0,2018-10-30 06:19:37+00:00,2025-11-18 01:37:36+00:00,2575.0
-incubator-carbondata-site,,1,0,,,,
+incubator-carbondata-site,,1,0,0.0,,,
 logging-log4net,C#,915,341,1629.0,2004-01-23 11:42:52+00:00,2025-11-15 10:38:49+00:00,7966.0
-incubator-carbondata,,4,0,,,,
+incubator-carbondata,,4,0,0.0,,,
 teaclave-sgx-sdk,Rust,1212,268,693.0,2017-04-27 05:43:59+00:00,2025-09-03 14:40:38+00:00,3051.0
 openmeetings-site,HTML,3,11,183.0,2015-12-13 05:54:37+00:00,2025-09-14 01:43:19+00:00,3562.0
 openwhisk-deploy-kube,Shell,306,232,458.0,2017-05-17 19:23:32+00:00,2024-09-24 14:22:35+00:00,2686.0
@@ -999,12 +999,12 @@ mxnet-test,C++,9,5,5655.0,2015-04-30 16:21:15+00:00,2017-08-06 06:52:13+00:00,82
 flink-shaded,Shell,138,127,187.0,2017-06-22 07:17:35+00:00,2025-10-15 08:03:59+00:00,3037.0
 cassandra-dtest,Python,55,135,5616.0,2011-09-29 14:16:25+00:00,2025-11-20 16:11:48+00:00,5166.0
 incubator-livy,Scala,933,617,534.0,2015-11-17 07:27:04+00:00,2025-11-14 01:41:09+00:00,3649.0
-incubator-mynewt-documentation,,1,0,,,,
+incubator-mynewt-documentation,,1,0,0.0,,,
 incubator-livy-website,HTML,13,15,66.0,2015-11-08 10:50:14+00:00,2024-01-15 19:02:12+00:00,2990.0
 tomee-site-generator,Java,10,35,412.0,2017-07-04 16:32:47+00:00,2025-09-20 07:21:37+00:00,2999.0
 superset-site,HTML,8,16,874.0,2017-06-27 20:08:29+00:00,2025-11-20 18:40:07+00:00,3067.0
 mxnet-site,HTML,22,21,288.0,2017-08-06 19:54:43+00:00,2025-04-24 07:10:09+00:00,2817.0
-opennlp-corpus,,1,0,,,,
+opennlp-corpus,,1,0,0.0,,,
 servicecomb-pack,Java,1917,431,1684.0,2017-07-18 08:27:38+00:00,2024-09-10 09:05:55+00:00,2611.0
 geronimo-config,Java,16,14,114.0,2017-04-21 22:13:31+00:00,2022-02-24 11:00:30+00:00,1769.0
 qpid-site,HTML,1,6,633.0,2016-04-28 16:35:08+00:00,2025-10-10 07:13:44+00:00,3451.0
@@ -1012,10 +1012,10 @@ gobblin-site,HTML,1,3,61.0,2017-07-21 06:20:25+00:00,2023-09-13 04:46:49+00:00,2
 atlas-website,HTML,4,2,1.0,2015-07-10 02:13:46+00:00,2015-07-10 02:13:46+00:00,0.0
 atlas,Java,2029,899,4024.0,2014-11-20 07:08:27+00:00,2025-11-21 09:59:23+00:00,4019.0
 qpid-interop-test,Python,3,9,235.0,2015-06-11 14:47:50+00:00,2024-01-29 16:23:35+00:00,3154.0
-incubator-streams-examples,,1,0,,,,
-incubator-streams-master,,1,0,,,,
+incubator-streams-examples,,1,0,0.0,,,
+incubator-streams-master,,1,0,0.0,,,
 metamodel-membrane,Java,16,18,49.0,2017-07-23 03:56:23+00:00,2019-06-04 19:39:52+00:00,681.0
-incubator-streams,,1,0,,,,
+incubator-streams,,1,0,0.0,,,
 dubbo-docs,,75,66,107.0,2015-06-09 06:43:04+00:00,2020-10-29 13:26:33+00:00,1969.0
 openwhisk-deploy-mesos,Python,8,7,2.0,2017-08-04 12:30:04+00:00,2018-04-10 15:12:59+00:00,249.0
 accumulo-fluo-yarn,Shell,5,13,31.0,2017-08-04 15:49:55+00:00,2025-11-18 00:23:46+00:00,3027.0
@@ -1031,7 +1031,7 @@ commons-parent,JavaScript,34,32,2579.0,2006-10-11 19:12:26+00:00,2025-11-19 12:0
 netbeans-html4j,Java,29,20,466.0,2017-09-03 12:47:24+00:00,2025-06-25 05:26:10+00:00,2851.0
 daffodil,Scala,104,73,4338.0,2011-07-29 03:54:39+00:00,2025-10-16 17:52:32+00:00,5193.0
 geronimo-website,HTML,2,2,9.0,2017-09-06 00:46:52+00:00,2025-04-30 05:26:31+00:00,2793.0
-hadoop-downstream-tests,,1,0,,,,
+hadoop-downstream-tests,,1,0,0.0,,,
 netbeans-jackpot30,Java,5,6,37.0,2017-09-03 17:07:51+00:00,2025-06-28 09:29:51+00:00,2854.0
 netbeans,Java,2970,914,11703.0,2017-09-11 13:32:02+00:00,2025-11-19 19:24:53+00:00,2991.0
 logging-log4j-audit-sample,Java,12,12,78.0,2017-09-03 02:01:31+00:00,2025-11-11 11:08:05+00:00,2991.0
@@ -1049,12 +1049,12 @@ netbeans-tools,PHP,18,24,292.0,2017-09-06 20:36:39+00:00,2025-03-17 13:25:05+00:
 openwhisk-runtime-java,Java,46,59,833.0,2016-02-19 22:47:33+00:00,2024-09-24 13:11:35+00:00,3139.0
 datasketches-vector,Java,15,4,96.0,2017-09-23 06:37:44+00:00,2025-03-30 20:44:23+00:00,2745.0
 incubator-weex-ui,Vue,4746,898,1376.0,2017-09-28 03:54:55+00:00,2021-05-27 12:59:54+00:00,1337.0
-flex-asjs,,2,0,,,,
-flex-falcon,,1,0,,,,
-flex-tourjs,,1,0,,,,
+flex-asjs,,2,0,0.0,,,
+flex-falcon,,1,0,0.0,,,
+flex-tourjs,,1,0,0.0,,,
 royale-website,JavaScript,5,8,66.0,2017-09-27 22:16:30+00:00,2025-10-21 16:20:32+00:00,2945.0
 incubator-retired-amaterasu,Kotlin,56,24,811.0,2015-10-18 22:39:25+00:00,2019-10-18 10:23:21+00:00,1460.0
-flex-typedefs,,1,0,,,,
+flex-typedefs,,1,0,0.0,,,
 openwhisk-runtime-php,Scala,40,30,851.0,2016-02-19 22:47:33+00:00,2024-09-24 14:25:57+00:00,3139.0
 openwhisk-runtime-swift,Swift,27,23,855.0,2016-02-19 22:47:33+00:00,2024-09-24 14:26:12+00:00,3139.0
 openwhisk-runtime-nodejs,JavaScript,64,71,938.0,2016-02-19 22:47:33+00:00,2024-12-14 21:28:19+00:00,3220.0
@@ -1325,7 +1325,7 @@ karaf-reactive-components,Java,2,3,53.0,2017-06-23 13:01:51+00:00,2017-10-25 07:
 directory-buildtools,Java,3,4,151.0,2010-05-30 09:52:10+00:00,2024-07-25 05:04:47+00:00,5169.0
 dubbo-feature-test,Java,14,5,40.0,2017-09-11 04:30:23+00:00,2023-10-13 08:52:52+00:00,2223.0
 sling-org-apache-sling-scripting-sightly-testing,Java,0,5,251.0,2015-05-12 15:39:47+00:00,2025-08-06 12:20:02+00:00,3738.0
-sdap-doms,,1,0,,,,
+sdap-doms,,1,0,0.0,,,
 sling,Groovy,11,12,168.0,2017-10-25 20:32:12+00:00,2025-11-17 13:41:21+00:00,2944.0
 accumulo-docker,Dockerfile,17,26,26.0,2017-10-30 16:15:46+00:00,2023-09-22 19:54:32+00:00,2153.0
 sdap-edge,Python,5,8,15.0,2017-10-27 22:41:26+00:00,2019-12-02 23:40:12+00:00,766.0
@@ -1354,7 +1354,7 @@ sling-org-apache-sling-commons-testing,Java,0,4,189.0,2009-02-22 13:42:19+00:00,
 directory-mavibot,Java,16,7,581.0,2012-06-13 00:04:55+00:00,2021-05-15 10:39:21+00:00,3258.0
 maven-resolver-ant-tasks,Java,10,17,239.0,2011-10-26 08:19:19+00:00,2025-11-18 07:47:16+00:00,5136.0
 sling-tooling-release,Shell,0,5,51.0,2014-10-07 09:52:41+00:00,2025-09-22 10:12:22+00:00,4003.0
-incubator-mnemonic,,1,0,,,,
+incubator-mnemonic,,1,0,0.0,,,
 maven-jenkins-env,Groovy,5,4,148.0,2017-11-26 22:05:05+00:00,2025-03-16 12:00:18+00:00,2666.0
 maven-jenkins-lib,Groovy,9,11,206.0,2017-11-26 22:06:36+00:00,2025-11-13 22:09:20+00:00,2909.0
 incubator-crail,Java,150,46,437.0,2016-09-18 19:14:49+00:00,2022-07-03 17:15:30+00:00,2113.0
@@ -1409,7 +1409,7 @@ fineract-cn-mariadb,Java,7,101,37.0,2017-03-14 09:42:19+00:00,2019-08-25 17:13:2
 fineract-cn-api,Java,4,111,40.0,2017-03-13 17:37:19+00:00,2023-01-05 09:05:58+00:00,2123.0
 fineract-cn-lang,Java,5,110,82.0,2017-03-13 17:15:07+00:00,2023-01-05 09:08:05+00:00,2123.0
 fineract-cn-identity,Java,7,131,144.0,2017-03-15 13:57:31+00:00,2023-02-09 07:27:35+00:00,2156.0
-fineract-cn-integration-tests,,2,0,,,,
+fineract-cn-integration-tests,,2,0,0.0,,,
 fineract-cn-default-setup,Java,3,103,34.0,2017-08-04 15:35:26+00:00,2023-01-05 08:58:18+00:00,1979.0
 fineract-cn-anubis,Java,3,110,93.0,2017-03-14 12:37:40+00:00,2023-01-05 09:05:03+00:00,2122.0
 fineract-cn-template,Java,8,104,45.0,2017-03-15 07:06:19+00:00,2019-10-16 20:03:04+00:00,945.0
@@ -1484,7 +1484,7 @@ sdap-ningesterpy,Python,1,7,29.0,2017-12-27 22:29:08+00:00,2020-03-19 21:34:21+0
 dubbo-admin,Go,4038,2167,682.0,2018-01-11 05:30:18+00:00,2025-11-16 12:19:01+00:00,2866.0
 sling-org-apache-sling-serviceuser-webconsole,Java,0,3,40.0,2018-01-12 19:47:28+00:00,2025-11-10 21:18:20+00:00,2859.0
 mynewt-mcumgr-cli,Go,70,42,13.0,2018-01-15 00:38:11+00:00,2022-06-10 14:05:43+00:00,1607.0
-commons-testrepo,,1,0,,,,
+commons-testrepo,,1,0,0.0,,,
 skywalking-website,CSS,100,146,1140.0,2017-12-21 14:13:32+00:00,2025-11-19 08:37:50+00:00,2889.0
 dubbo-spring-boot-project,Java,5405,1869,288.0,2018-01-18 12:10:50+00:00,2023-01-25 00:11:56+00:00,1832.0
 incubator-odftoolkit-site,HTML,1,2,233.0,2011-08-22 23:48:04+00:00,2017-09-22 15:01:07+00:00,2222.0
@@ -1499,7 +1499,7 @@ skywalking-data-collect-protocol,Starlark,116,109,174.0,2018-02-23 03:30:48+00:0
 tomcat-training,JavaScript,18,16,73.0,2018-02-16 09:47:07+00:00,2025-04-01 14:18:22+00:00,2601.0
 couchdb-erlang-bcrypt,C,1,1,101.0,2008-11-03 14:33:03+00:00,2017-09-28 12:53:31+00:00,3250.0
 fineract-cn-mobile,Java,41,156,276.0,2017-03-14 11:52:14+00:00,2023-01-05 08:52:43+00:00,2122.0
-tajo-site,,1,0,,,,
+tajo-site,,1,0,0.0,,,
 incubator-nemo,Java,111,64,645.0,2016-10-31 05:11:29+00:00,2025-07-01 16:26:40+00:00,3165.0
 incubator-nemo-website,HTML,5,5,99.0,2016-10-31 05:11:29+00:00,2025-06-29 12:36:19+00:00,3163.0
 openwhisk-runtime-go,Go,45,48,145.0,2018-03-08 14:40:11+00:00,2025-08-05 05:28:30+00:00,2706.0
@@ -1518,7 +1518,7 @@ manifoldcf-integration-solr-7.x,Java,1,1,21.0,2016-04-05 05:07:01+00:00,2018-02-
 geronimo-jwt-auth,Java,7,9,65.0,2018-04-21 17:37:52+00:00,2024-11-19 07:55:40+00:00,2403.0
 commons-geometry,Java,56,28,839.0,2018-04-07 00:28:17+00:00,2025-11-21 14:41:26+00:00,2785.0
 mynewt-lorawan,,3,3,1.0,2018-08-29 16:01:22+00:00,2018-08-29 16:01:22+00:00,0.0
-mynewt-nfc,,3,0,,,,
+mynewt-nfc,,3,0,0.0,,,
 archiva-redback-components-site,Shell,1,2,7.0,2018-04-15 12:55:12+00:00,2019-10-16 18:19:35+00:00,549.0
 archiva-redback-components-parent,,1,2,145.0,2012-04-06 09:33:40+00:00,2019-11-23 20:59:56+00:00,2787.0
 archiva-redback-components-expression-evaluator,,1,2,41.0,2012-04-17 21:47:27+00:00,2019-11-17 12:43:37+00:00,2769.0
@@ -1578,7 +1578,7 @@ incubator-hugegraph-doc,JavaScript,66,112,293.0,2022-03-21 10:55:33+00:00,2025-1
 fineract-cn-notifications,Java,5,85,60.0,2018-06-09 21:03:15+00:00,2023-01-05 09:03:48+00:00,1670.0
 geronimo-openapi,Java,12,16,150.0,2018-06-20 12:53:58+00:00,2022-02-23 13:11:44+00:00,1344.0
 sling-org-apache-sling-capabilities,Java,0,3,63.0,2018-06-21 12:25:30+00:00,2025-08-06 12:20:02+00:00,2602.0
-fineract-cn-docker-scripts,,1,0,,,,
+fineract-cn-docker-scripts,,1,0,0.0,,,
 sling-org-apache-sling-app-cms,Java,71,50,1076.0,2018-01-27 18:37:33+00:00,2025-08-06 12:20:02+00:00,2747.0
 fineract-cn-group-finance,TypeScript,1,70,51.0,2018-03-23 04:28:43+00:00,2023-01-05 09:01:49+00:00,1749.0
 sling-org-apache-sling-resource-filter,Java,5,5,41.0,2018-06-28 15:42:04+00:00,2025-08-06 12:20:02+00:00,2595.0
@@ -1651,7 +1651,7 @@ openwhisk-runtime-dotnet,C#,34,29,57.0,2018-10-11 18:18:52+00:00,2024-10-04 17:5
 accumulo-proxy,Java,11,22,639.0,2013-01-17 21:22:35+00:00,2025-09-15 14:52:35+00:00,4623.0
 rocketmq-spring,Java,2243,938,385.0,2018-12-06 08:44:26+00:00,2025-06-23 08:59:04+00:00,2391.0
 netbeans-parent,Groovy,6,9,1245.0,2006-06-22 17:13:10+00:00,2025-07-01 12:55:20+00:00,6948.0
-kibble-docker,,2,0,,,,
+kibble-docker,,2,0,0.0,,,
 dubbo-erlang,Erlang,48,22,121.0,2018-10-17 11:29:21+00:00,2025-02-19 11:14:15+00:00,2316.0
 skywalking-rocketbot-ui,Vue,782,352,494.0,2018-10-16 14:00:48+00:00,2022-02-27 13:40:43+00:00,1229.0
 sling-org-apache-sling-scripting-sightly-runtime,Java,1,5,48.0,2018-10-18 11:42:40+00:00,2025-08-06 12:20:02+00:00,2484.0
@@ -1727,7 +1727,7 @@ sling-org-apache-sling-bnd-plugins,Java,1,3,5.0,2019-01-21 19:49:28+00:00,2019-0
 causeway-site,HTML,1,3,2251.0,2012-11-04 17:41:08+00:00,2021-08-26 11:24:15+00:00,3216.0
 any23-committers,Shell,2,3,24.0,2012-01-16 09:25:01+00:00,2022-03-03 23:21:01+00:00,3699.0
 lucenenet-site,HTML,5,9,96.0,2019-02-19 18:39:58+00:00,2025-10-04 08:03:52+00:00,2418.0
-tuscany-js,,1,0,,,,
+tuscany-js,,1,0,0.0,,,
 onami,Java,11,3,744.0,2012-11-15 10:38:01+00:00,2014-07-22 20:55:20+00:00,614.0
 ozone-site,HTML,7,38,65.0,2020-10-28 08:38:03+00:00,2025-11-10 06:50:43+00:00,1838.0
 mnemonic-site,SCSS,5,9,91.0,2016-04-22 04:46:44+00:00,2022-04-19 06:32:39+00:00,2188.0
@@ -1810,7 +1810,7 @@ incubator-pagespeed-website,,1,4,5.0,2019-05-16 08:11:26+00:00,2023-04-21 06:59:
 dubbo-proxy,Java,258,87,15.0,2019-06-03 08:42:58+00:00,2019-08-01 09:04:45+00:00,59.0
 apachecon-site,,2,0,1.0,2022-06-25 18:12:50+00:00,2022-06-25 18:12:50+00:00,0.0
 servicecomb-fence,JavaScript,420,23,99.0,2019-05-24 06:43:59+00:00,2024-11-30 03:10:26+00:00,2016.0
-infratest,,1,0,,,,
+infratest,,1,0,0.0,,,
 streampark,Java,4234,1047,2019.0,2021-05-23 17:00:20+00:00,2025-11-02 03:05:10+00:00,1623.0
 rocketmq-docker,Shell,696,251,127.0,2019-06-03 07:06:51+00:00,2025-06-10 09:58:52+00:00,2199.0
 pulsar-client-ruby,,7,15,1.0,2019-05-30 20:58:10+00:00,2019-05-30 20:58:10+00:00,0.0
@@ -1833,7 +1833,7 @@ airavata-mft,Java,37,38,451.0,2019-06-21 19:44:21+00:00,2024-04-03 08:33:42+00:0
 plc4x-build-tools,Java,18,18,408.0,2019-06-19 10:10:29+00:00,2025-09-22 08:23:14+00:00,2286.0
 incubator-milagro-dta,Go,11,8,70.0,2019-06-25 13:45:26+00:00,2019-12-11 07:57:30+00:00,168.0
 incubator-milagro-crypto-rust,Rust,31,19,87.0,2019-06-26 09:01:25+00:00,2020-10-12 06:45:47+00:00,473.0
-diversity-research,,2,0,,,,
+diversity-research,,2,0,0.0,,,
 rocketmq-remoting,Java,3,4,40.0,2019-05-13 07:51:32+00:00,2019-06-28 11:21:31+00:00,46.0
 sling-org-apache-sling-feature-diff,Java,0,2,31.0,2019-06-27 21:42:49+00:00,2025-08-06 12:20:02+00:00,2231.0
 sling-org-apache-sling-feature-r2f,Java,0,2,19.0,2019-06-27 21:49:57+00:00,2025-08-06 12:20:02+00:00,2231.0
@@ -1905,7 +1905,7 @@ submarine-site,HTML,6,8,303.0,2019-10-30 13:02:11+00:00,2023-11-12 07:37:21+00:0
 ws-neethi,Java,3,4,457.0,2005-11-07 16:49:40+00:00,2025-10-22 19:18:46+00:00,7289.0
 ws-wss4j,Java,41,48,3282.0,2004-02-13 20:43:09+00:00,2025-11-21 11:54:57+00:00,7951.0
 ws-axiom,Java,13,22,5580.0,2006-02-01 02:24:08+00:00,2025-11-21 03:05:30+00:00,7233.0
-ws-woden,,1,0,,,,
+ws-woden,,1,0,0.0,,,
 ws-xmlschema,Java,11,21,267.0,2010-10-23 22:02:07+00:00,2025-11-21 11:54:10+00:00,5507.0
 ignite-extensions,Java,54,80,315.0,2019-11-01 06:49:51+00:00,2025-10-28 06:39:17+00:00,2187.0
 skywalking-cli,Go,94,48,239.0,2019-11-06 04:05:58+00:00,2025-10-13 11:47:03+00:00,2168.0
@@ -1993,7 +1993,7 @@ axis-axis1-java,Java,13,29,13229.0,2001-01-19 12:02:18+00:00,2025-02-09 23:54:28
 axis-site,HTML,4,2,170.0,2011-01-05 05:14:48+00:00,2025-03-10 17:27:47+00:00,5178.0
 yunikorn-site,MDX,29,84,570.0,2020-03-27 03:28:12+00:00,2025-11-21 13:52:31+00:00,2065.0
 axis-axis1-site-src,,2,2,4.0,2013-03-07 20:45:19+00:00,2020-05-01 19:26:31+00:00,2611.0
-pinot-docs,,1,0,,,,
+pinot-docs,,1,0,0.0,,,
 tvm-vta,Scala,314,86,228.0,2018-03-01 23:55:46+00:00,2022-01-27 21:25:39+00:00,1427.0
 flink-statefun-docker,Shell,18,14,36.0,2020-03-30 08:43:54+00:00,2023-09-08 11:50:47+00:00,1257.0
 cassandra-easy-stress,Kotlin,27,16,343.0,2018-04-09 21:00:22+00:00,2025-11-16 20:26:07+00:00,2777.0
@@ -2016,12 +2016,12 @@ yunikorn-release,Go,43,64,190.0,2020-04-14 05:55:44+00:00,2025-07-22 03:08:19+00
 camel-k-examples,Java,90,62,164.0,2020-04-17 11:13:49+00:00,2025-04-16 14:50:49+00:00,1825.0
 incubator-nlpcraft-website,HTML,3,2,511.0,2020-04-18 18:23:14+00:00,2025-03-01 17:27:36+00:00,1777.0
 flink-training,Java,998,702,63.0,2020-04-15 17:30:00+00:00,2023-12-02 02:55:23+00:00,1325.0
-impala-udf-samples,,1,0,,,,
+impala-udf-samples,,1,0,0.0,,,
 flink-benchmarks,Java,181,94,235.0,2020-05-11 06:02:25+00:00,2025-11-11 02:09:45+00:00,2009.0
 geode-dotnet-core-client,C#,6,5,21.0,2020-04-22 18:28:38+00:00,2021-06-10 01:44:10+00:00,413.0
 uima-async-scaleout,Java,1,4,1843.0,2009-08-11 19:51:07+00:00,2022-06-10 21:35:32+00:00,4686.0
 puppet-module-ssh,Ruby,0,3,428.0,2013-05-16 13:36:23+00:00,2020-04-26 19:34:06+00:00,2537.0
-maven-metric-extension,,0,0,,,,
+maven-metric-extension,,0,0,0.0,,,
 camel-kafka-connector-examples,Java,66,43,829.0,2020-04-29 13:29:55+00:00,2025-09-25 12:22:49+00:00,1974.0
 sling-org-apache-sling-installer-factory-feature,Java,0,4,63.0,2020-02-21 08:16:47+00:00,2025-08-06 12:20:02+00:00,1993.0
 skywalking-python,Python,207,107,326.0,2020-03-17 14:19:22+00:00,2025-09-25 08:44:55+00:00,2017.0
@@ -2107,7 +2107,7 @@ openwebbeans-peeco,Java,0,3,3.0,2020-08-31 14:58:34+00:00,2020-09-01 07:44:19+00
 incubator-liminal-site,HTML,3,4,16.0,2020-09-29 08:57:10+00:00,2020-11-03 07:39:38+00:00,34.0
 camel-quarkus-examples,Java,93,130,560.0,2020-09-18 16:18:24+00:00,2025-11-07 14:10:46+00:00,1875.0
 aries-typedevent,Java,3,8,64.0,2020-09-11 16:59:15+00:00,2025-05-01 09:09:23+00:00,1692.0
-royale-ds,,0,0,,,,
+royale-ds,,0,0,0.0,,,
 incubator-hugegraph-computer,Java,52,45,241.0,2020-09-22 03:23:15+00:00,2025-11-15 08:14:16+00:00,1880.0
 nutch-site,CSS,2,2,24.0,2021-08-27 05:40:50+00:00,2025-07-21 17:52:14+00:00,1424.0
 infrastructure-boxer,Python,0,6,280.0,2020-09-16 07:20:54+00:00,2025-09-23 13:24:55+00:00,1833.0
@@ -2121,7 +2121,7 @@ dubbo-go-samples,Go,273,219,1207.0,2020-10-14 03:01:52+00:00,2025-11-19 04:14:37
 incubator-hop-docs,Shell,4,10,286.0,2020-11-08 13:03:45+00:00,2021-04-15 10:48:54+00:00,157.0
 directory-site,HTML,9,6,2044.0,2012-04-18 17:05:00+00:00,2025-11-20 10:42:53+00:00,4963.0
 yetus-homebrew,Shell,1,4,16.0,2020-10-18 20:33:17+00:00,2025-03-04 15:17:22+00:00,1597.0
-airflow-upgrade-check,,0,0,,,,
+airflow-upgrade-check,,0,0,0.0,,,
 thrift-website,CSS,1,6,41.0,2020-10-29 08:53:26+00:00,2025-05-23 21:00:37+00:00,1667.0
 httpd-mod_fcgid,C,2,3,522.0,2004-05-18 05:03:37+00:00,2020-01-01 19:44:47+00:00,5706.0
 skywalking-satellite,Go,111,53,195.0,2020-10-31 10:05:08+00:00,2025-11-19 01:38:20+00:00,1844.0
@@ -2167,7 +2167,7 @@ uima-build-jenkins-shared-library,Groovy,2,2,38.0,2021-01-25 14:23:36+00:00,2023
 comdev-fosdem-static,,2,3,11.0,2021-01-31 12:55:13+00:00,2021-02-05 04:40:39+00:00,4.0
 sling-org-apache-sling-scripting-spi,Java,1,3,28.0,2021-01-29 09:33:30+00:00,2025-08-06 12:20:02+00:00,1650.0
 comdev-fosdem-content,HTML,3,6,20.0,2021-01-31 12:56:52+00:00,2021-12-31 19:34:36+00:00,334.0
-river-ldj-tests,,1,0,,,,
+river-ldj-tests,,1,0,0.0,,,
 buildstream,Python,104,41,8340.0,2016-11-06 05:38:28+00:00,2025-11-21 10:41:29+00:00,3302.0
 openoffice-docs,,4,10,131.0,2021-02-03 02:59:23+00:00,2023-11-18 06:34:04+00:00,1018.0
 infrastructure-roundtrip,Python,0,2,25.0,2021-02-05 17:27:34+00:00,2021-02-10 21:59:08+00:00,5.0
@@ -2206,11 +2206,11 @@ skywalking-kong,Java,31,12,22.0,2021-04-16 16:21:20+00:00,2022-07-08 13:27:30+00
 eventmesh-site,TypeScript,24,48,453.0,2021-04-20 01:46:18+00:00,2025-05-21 09:31:57+00:00,1492.0
 arrow-rs,Rust,3233,1050,7152.0,2016-02-05 20:08:35+00:00,2025-11-21 15:41:38+00:00,3576.0
 datafusion,Rust,8043,1773,11938.0,2016-02-05 20:08:35+00:00,2025-11-21 18:11:33+00:00,3576.0
-royale-official-site,,1,0,,,,
+royale-official-site,,1,0,0.0,,,
 qpid-protonj2,Java,17,13,2369.0,2017-06-22 22:29:04+00:00,2025-10-13 15:24:40+00:00,3034.0
 cloudstack-terraform-provider,Go,45,55,537.0,2014-12-10 21:20:52+00:00,2025-10-24 04:24:42+00:00,3970.0
 www-site,JavaScript,58,141,1870.0,2021-04-24 14:33:34+00:00,2025-11-21 16:49:27+00:00,1672.0
-tomee-bval,,1,0,,,,
+tomee-bval,,1,0,0.0,,,
 sis-site,HTML,7,6,598.0,2012-07-07 02:42:09+00:00,2025-10-06 08:21:12+00:00,4839.0
 incubator-kie-kogito-benchmarks,Java,1,9,38.0,2021-04-30 11:13:02+00:00,2023-11-13 08:32:22+00:00,926.0
 felix-antora-site,HTML,1,11,1253.0,2012-12-13 12:34:21+00:00,2025-10-13 08:11:36+00:00,4686.0
@@ -2246,10 +2246,10 @@ incubator-devlake,Go,2866,655,5604.0,2021-08-24 08:25:04+00:00,2025-11-03 03:53:
 kyuubi-website,HTML,12,37,235.0,2021-06-30 09:44:23+00:00,2025-11-20 07:13:05+00:00,1603.0
 camel-kameleon,Java,41,13,159.0,2021-03-27 02:23:54+00:00,2025-02-25 22:25:39+00:00,1431.0
 rocketmq-streams,Java,177,82,811.0,2021-07-13 13:07:47+00:00,2023-08-11 08:42:38+00:00,758.0
-poi-site,,1,0,,,,
+poi-site,,1,0,0.0,,,
 nutch-webapp,Java,10,5,2.0,2021-07-12 15:26:59+00:00,2021-07-14 03:35:53+00:00,1.0
 arrow-cookbook,C++,105,48,197.0,2021-07-14 21:42:28+00:00,2025-09-02 11:28:19+00:00,1510.0
-poi-xmlbeans-site,,1,0,,,,
+poi-xmlbeans-site,,1,0,0.0,,,
 kvrocks-controller,TypeScript,119,64,224.0,2021-07-31 07:59:57+00:00,2025-11-21 07:53:48+00:00,1573.0
 infrastructure-blocky4,Python,0,1,124.0,2021-08-02 15:04:05+00:00,2025-11-11 17:54:53+00:00,1562.0
 sling-org-apache-sling-thumbnails,Java,3,2,19.0,2021-08-11 01:04:36+00:00,2025-08-06 12:20:02+00:00,1456.0
@@ -2358,13 +2358,13 @@ airavata-user-docs,,0,0,240.0,2016-03-02 18:44:47+00:00,2023-08-16 21:31:59+00:0
 buildstream-plugins,Python,5,11,249.0,2022-03-21 04:43:46+00:00,2025-10-24 06:46:29+00:00,1313.0
 shenyu-client-dotnet,C#,10,9,28.0,2022-04-18 10:04:09+00:00,2025-07-24 12:19:12+00:00,1193.0
 logging-flume-search,Java,0,4,6.0,2022-04-04 08:44:16+00:00,2023-03-29 19:55:00+00:00,359.0
-airavata-custos-docs,,0,0,,,,
+airavata-custos-docs,,0,0,0.0,,,
 incubator-devlake-website,TypeScript,39,109,831.0,2022-04-22 04:55:18+00:00,2025-10-21 03:46:08+00:00,1277.0
 shenyu-client-golang,Go,16,12,38.0,2022-04-18 09:58:04+00:00,2025-01-04 15:06:21+00:00,992.0
 kvrocks-website,TypeScript,20,52,363.0,2022-05-15 08:20:45+00:00,2025-11-21 02:40:02+00:00,1285.0
 flink-connector-redis-streams,,18,5,6.0,2022-05-02 11:54:34+00:00,2023-02-08 15:57:17+00:00,282.0
 datasketches-memory17,Java,0,1,38.0,2022-05-05 00:38:16+00:00,2023-10-23 16:34:41+00:00,536.0
-tomee-mbean-annotation-api,,0,0,,,,
+tomee-mbean-annotation-api,,0,0,0.0,,,
 rocketmq-e2e,Java,16,18,32.0,2022-05-10 11:45:16+00:00,2023-10-26 09:17:15+00:00,533.0
 incubator-kie-kogito-docs,JavaScript,14,60,468.0,2022-05-09 17:59:36+00:00,2025-11-17 15:46:05+00:00,1287.0
 flink-connector-rabbitmq,Java,23,15,122.0,2022-05-13 07:41:09+00:00,2024-04-19 10:14:21+00:00,707.0
@@ -2376,7 +2376,7 @@ asterixdb-graph,Java,1,0,11.0,2021-11-04 20:41:07+00:00,2022-09-25 21:29:42+00:0
 incubator-horaedb-meta,Go,27,16,214.0,2022-06-02 03:05:43+00:00,2024-01-25 07:46:12+00:00,602.0
 arrow-adbc,C#,517,164,2186.0,2022-06-01 20:09:34+00:00,2025-11-20 02:04:53+00:00,1267.0
 sling-maven-enforcer-rules,Java,0,0,34.0,2022-06-03 08:35:07+00:00,2025-08-06 12:20:02+00:00,1160.0
-royale-pelican,,0,0,,,,
+royale-pelican,,0,0,0.0,,,
 horaedb,Rust,2804,224,1283.0,2022-05-26 08:06:22+00:00,2025-10-28 14:49:42+00:00,1251.0
 horaedb-client-java,Java,22,13,67.0,2022-06-08 08:15:36+00:00,2024-08-14 07:50:34+00:00,797.0
 infrastructure-github-discussions-notifier,Python,0,1,26.0,2022-06-16 09:22:57+00:00,2024-11-27 15:19:32+00:00,895.0
@@ -2463,7 +2463,7 @@ logging-log4j-samples,Java,7,12,493.0,2023-02-16 20:55:21+00:00,2025-11-11 07:46
 infrastructure-jira-issues-importer,Python,3,3,39.0,2016-08-13 04:47:03+00:00,2025-01-01 19:57:09+00:00,3063.0
 infrastructure-jira-to-pubsub,Python,0,0,9.0,2022-11-29 09:15:29+00:00,2024-12-23 09:49:09+00:00,755.0
 ctakes,Java,108,21,180.0,2022-11-29 19:55:39+00:00,2025-09-26 02:51:31+00:00,1031.0
-infrastructure-jira-issues-import-test,,0,0,,,,
+infrastructure-jira-issues-import-test,,0,0,0.0,,,
 incubator-graphar-testing,,1,9,48.0,2022-11-30 09:43:22+00:00,2025-09-15 07:58:37+00:00,1019.0
 netbeans-nbpackage,Java,25,13,229.0,2021-08-17 13:43:53+00:00,2025-10-27 22:48:33+00:00,1532.0
 infrastructure-selfserve-portal,Python,3,3,458.0,2022-11-29 21:52:25+00:00,2025-10-21 19:26:13+00:00,1056.0
@@ -2482,7 +2482,7 @@ kyuubi-client,,11,10,4.0,2023-01-09 14:04:59+00:00,2023-01-10 06:12:57+00:00,0.0
 pekko-site,HTML,54,12,179.0,2023-01-15 20:24:47+00:00,2025-11-20 10:14:49+00:00,1039.0
 kyuubi-docker,Dockerfile,14,7,17.0,2023-01-13 07:12:13+00:00,2025-06-24 02:28:21+00:00,892.0
 horaedb-docs,HTML,7,27,148.0,2023-01-16 09:43:41+00:00,2024-12-26 03:11:03+00:00,709.0
-openwebbeans-build-tools,,0,0,,,,
+openwebbeans-build-tools,,0,0,0.0,,,
 beam-starter-typescript,TypeScript,11,4,12.0,2022-12-30 01:45:08+00:00,2025-01-13 14:43:10+00:00,745.0
 incubator-resilientdb-resvault,JavaScript,4,8,102.0,2023-01-24 10:36:50+00:00,2025-10-29 22:03:32+00:00,1009.0
 incubator-resilientdb-graphql,Python,2,5,97.0,2023-01-24 10:42:50+00:00,2025-07-18 03:06:53+00:00,905.0
@@ -2499,337 +2499,337 @@ rocketmq-test-tool,Shell,4,7,24.0,2023-02-22 08:16:49+00:00,2024-09-29 03:55:58+
 hamilton,Jupyter Notebook,2319,166,1822.0,2019-07-25 21:35:24+00:00,2025-11-17 01:11:17+00:00,2306.0
 maven-apache-resources,Java,6,6,228.0,2006-11-19 20:23:18+00:00,2025-11-10 02:06:01+00:00,6930.0
 pekko-connectors-samples,Java,5,4,173.0,2018-08-14 15:15:46+00:00,2025-10-22 12:48:20+00:00,2625.0
-logging-flume-scribe,,0,0,,,,
+logging-flume-scribe,,0,0,0.0,,,
 logging-flume-spring-boot,Java,5,4,15.0,2023-03-16 21:03:23+00:00,2024-04-29 03:19:40+00:00,409.0
 ambari-website,MDX,4,14,38.0,2023-03-15 09:30:06+00:00,2025-05-13 00:46:15+00:00,789.0
 paimon-website,TypeScript,17,21,106.0,2023-03-16 09:22:07+00:00,2025-11-10 06:26:25+00:00,969.0
 logging-flume-twitter,Java,0,2,4.0,2023-03-18 18:03:46+00:00,2023-03-21 00:28:05+00:00,2.0
 logging-flume-morphline,Java,0,0,1.0,2023-04-01 04:26:59+00:00,2023-04-01 04:26:59+00:00,0.0
-logging-flume-jms,,0,0,,,,
+logging-flume-jms,,0,0,0.0,,,
 logging-flume-legacy,Java,0,0,3.0,2023-03-30 02:38:02+00:00,2024-04-30 18:30:31+00:00,397.0
 logging-flume-kafka,Java,5,3,6.0,2023-03-20 01:50:14+00:00,2024-04-28 19:58:03+00:00,405.0
 logging-flume-jdbc,Java,1,2,1.0,2023-03-21 00:24:25+00:00,2023-03-21 00:24:25+00:00,0.0
-logging-flume-irc,,0,0,,,,
-logging-flume-http,,2,0,,,,
-iggy,Rust,3203,215,,,,
-paimon-shade,Shell,10,9,,,,
-doris-shade,,2,18,,,,
-eventmesh-workflow,Go,30,16,,,,
-eventmesh-dashboard,Java,21,20,,,,
-eventmesh-go,Go,12,12,,,,
-eventmesh-catalog,Go,8,6,,,,
-logging-flume-hadoop,Java,1,1,,,,
-paimon-presto,Java,12,15,,,,
-paimon-trino,Java,39,48,,,,
-ranger-site,HTML,2,2,,,,
-skywalking-go,Go,346,106,,,,
-skywalking-grafana-plugins,TypeScript,30,6,,,,
-kyuubi-shaded,Java,6,8,,,,
-maven-blog,,2,0,,,,
-gravitino,Java,2337,670,,,,
-skywalking-terraform,HCL,12,5,,,,
-airflow-site-archive,,1,1,,,,
-fory,Java,4068,340,,,,
-causeway-blog,,1,0,,,,
-doris-sdk,Thrift,8,7,,,,
-pekko-quickstart-scala.g8,Scala,12,1,,,,
-pekko-quickstart-java.g8,Java,4,0,,,,
-cassandra-analytics,Java,28,21,,,,
-cloudberry-site,TypeScript,18,35,,,,
-infrastructure-oauth,Python,6,13,,,,
-cloudberry,C,1126,185,,,,
-fory-site,TypeScript,22,26,,,,
-iotdb-client-csharp,C#,20,4,,,,
-netbeans-mavenutils-archetypes,Groovy,1,4,,,,
-kyuubi-service-rpc,Java,1,3,,,,
-bifromq,Java,729,75,,,,
-bifromq-sites,HTML,7,6,,,,
-spark-connect-go,Go,240,47,,,,
-infrastructure-blogs-archive,HTML,3,1,,,,
-hadoop-api-shim,Java,7,3,,,,
-geaflow,Java,742,152,,,,
-ctakes-website,HTML,0,0,,,,
-dubbo-go-contrib,Go,2,1,,,,
-hbase-kustomize,Shell,3,2,,,,
-causeway-app-referenceapp,Java,2,2,,,,
-infrastructure-reporting-dashboard,Python,4,1,,,,
-comdev-reporter,,4,1,,,,
-doris-operator,Go,121,59,,,,
-iotdb-docs,TypeScript,21,107,,,,
-paimon-webui,Java,141,66,,,,
-shenyu-wasm,Java,5,4,,,,
-uima-ducc,Java,1,0,,,,
-iceberg-rust,Rust,1143,354,,,,
-incubator-xtable,Java,1123,190,,,,
-cloudberry-bootcamp,Shell,20,9,,,,
-grails-github-actions,Groovy,2,2,,,,
-publicaffairs-website,,1,0,,,,
-infrastructure-test-cibuilds,,1,0,,,,
-infrastructure-asfquart,Python,5,5,,,,
-infrastructure-shorten,Python,0,0,,,,
-amoro-site,SCSS,6,18,,,,
-apachecon-eu,HTML,6,12,,,,
-iceberg-python,Python,932,398,,,,
-infrastructure-paste,,0,0,,,,
-iceberg-go,Go,357,126,,,,
-skywalking-banyandb-helm,Shell,9,1,,,,
-curator-site,TypeScript,0,2,,,,
-bloodhound-site,HTML,2,1,,,,
-sling-org-apache-sling-commons-metrics-prometheus,Java,0,0,,,,
-datasketches-python,Jupyter Notebook,37,8,,,,
-logging-log4j-jmx-gui,Java,2,2,,,,
-accumulo-access,Java,6,15,,,,
-ozhera,Java,108,41,,,,
-shardingsphere-plugin,Java,35,23,,,,
-zeppelin-site,JavaScript,9,12,,,,
-infra-transfer-test,,0,0,,,,
-flink-connector-prometheus,Java,16,4,,,,
-airavata-cookiecutter-django-app,Python,0,0,,,,
-airavata-cookiecutter-django-output-view,Python,0,0,,,,
-nutch-airflow-tools,,0,0,,,,
-beam-swift,Swift,1,3,,,,
-netbeans-antora-ui,SCSS,4,5,,,,
-netbeans-antora-wiki,,3,32,,,,
-netbeans-antora-tutorials,Java,10,533,,,,
-netbeans-antora,JavaScript,6,7,,,,
-netbeans-antora-site,HTML,12,1259,,,,
-incubator-hugegraph-ai,Python,103,62,,,,
-incubator-resilientdb-cdn,JavaScript,0,0,,,,
-sling-org-apache-sling-feature-analyser-classes,Java,1,0,,,,
-turbine-parent-assembly-default,,0,0,,,,
-incubator-seata-ctl,Go,8,6,,,,
-incubator-resilientdb-rust_sdk,Rust,2,1,,,,
-couchdb-fast-pbkdf2,C,0,0,,,,
-cloudstack-csbench,Go,6,10,,,,
-skywalking-graalvm-distro,Java,10,0,,,,
-incubator-devlake-terraform,Go,5,3,,,,
-logging-log4j-jakarta,Java,2,0,,,,
-cloudberry-backup,Go,9,11,,,,
-datasketches-java-common,Java,0,0,,,,
-cloudberry-go-libs,Go,2,3,,,,
-tsfile,Java,164,84,,,,
-airavata-cerebrum,Jupyter Notebook,4,7,,,,
-cloudberry-pxf,Java,4,9,,,,
-pekko-http-quickstart-scala.g8,Scala,1,0,,,,
-pekko-http-quickstart-java.g8,Java,0,0,,,,
-incubator-resilientdb-ResCLI,Ruby,3,0,,,,
-dubbo-integration-cases,Java,5,18,,,,
-pekko-grpc-quickstart-scala.g8,Scala,2,2,,,,
-pekko-grpc-quickstart-java.g8,Java,1,1,,,,
-orc-format,,14,7,,,,
-sling-org-apache-sling-providertype-bnd-plugin,Java,0,0,,,,
-manifoldcf-site,HTML,2,2,,,,
-gravitino-playground,Jupyter Notebook,62,46,,,,
-datasketches-go,Go,17,8,,,,
-manifoldcf-sdk,Shell,1,0,,,,
-airflow-mssql-migration,Python,1,1,,,,
-dubbo-research,,0,0,,,,
-opennlp-models,Shell,10,2,,,,
-activemq-artemis-examples,Java,36,30,,,,
-storm-docker,Dockerfile,2,3,,,,
-jackrabbit-site,CSS,1,2,,,,
-datafusion-comet,Scala,1071,253,,,,
-tomcat-tck,Java,5,3,,,,
-doris-streamloader,Go,30,19,,,,
-daffodil-sbt,Scala,1,6,,,,
-hive-dev-box,Shell,0,0,,,,
-trafficserver-libswoc,C++,4,8,,,,
-streams-activitypub,Scala,1,0,,,,
-tsfile-website,HTML,1,1,,,,
-incubator-kie-website,TypeScript,1,8,,,,
-infrastructure-asfyaml,Python,9,13,,,,
-burr,Python,1848,99,,,,
-struts-intellij-plugin,Java,1,2,,,,
-sling-org-apache-sling-resource-observation-annotations,Java,1,0,,,,
-incubator-gluten-site,Jupyter Notebook,3,8,,,,
-infrastructure-ezmlm-idx,,0,0,,,,
-comdev-working-groups,,41,25,,,,
-hadoop-release-support,Java,1,3,,,,
-manifoldcf-integration-solr-8x,Java,0,0,,,,
-incubator-resilientdb-explorer,Vue,3,0,,,,
-incubator-devlake-playground,Python,6,3,,,,
-doris-kafka-connector,Java,22,15,,,,
-sling-org-apache-sling-commons-json,,0,1,,,,
-incubator-xtable-site,HTML,1,0,,,,
-rocketmq-amqp,,1,0,,,,
-infrastructure-gha-workflow-scanner,Python,1,0,,,,
-flink-connector-kudu,Java,5,8,,,,
-plc4x-extras,Java,15,17,,,,
-spark-kubernetes-operator,Java,233,46,,,,
-incubator-graphar-website,MDX,0,5,,,,
-stormcrawler-site,HTML,2,2,,,,
-iotdb-extras,Java,20,17,,,,
-netbeans-samples,Java,3,1,,,,
-amoro-shade,Shell,2,4,,,,
-xerces-j,Java,5,11,,,,
-infrastructure-ideas,,2,2,,,,
-activemq-artemis-console,TypeScript,5,14,,,,
-infrastructure-actions,Python,17,38,,,,
-infrastructure-jira-issues-importer-2,,0,0,,,,
-voxpupuli-puppet-fail2ban,,1,0,,,,
-hudi-rs,Rust,262,53,,,,
-datafusion-site,JavaScript,5,18,,,,
-datafusion-benchmarks,Python,22,11,,,,
-bigtop-manager,Java,105,43,,,,
-datasketches-bigquery,JavaScript,16,6,,,,
-ozone-helm-charts,Smarty,12,9,,,,
-dubbo-spi-samples,Java,8,8,,,,
-polaris,Java,1743,332,,,,
-cloudberry-gpbackup-s3-plugin,Go,4,6,,,,
-manifoldcf-integration-solr-9x,Java,1,0,,,,
-nifi-python-extensions,Python,25,13,,,,
-tika-grpc-docker,Dockerfile,1,0,,,,
-incubator-resilientdb-ResContract,JavaScript,2,2,,,,
-dubbo-ai,Java,7,5,,,,
-camel-upgrade-recipes,Java,5,11,,,,
-gravitino-site,HTML,3,16,,,,
-openserverless,Shell,564,19,,,,
-openserverless-site,CSS,10,15,,,,
-openserverless-task,JavaScript,8,13,,,,
-openserverless-cli,Go,16,12,,,,
-openserverless-runtimes,Go,6,8,,,,
-openserverless-operator,Python,9,6,,,,
-openserverless-testing,Shell,1,4,,,,
-openserverless-python-starter,,1,0,,,,
-openserverless-documentation,,1,0,,,,
-openserverless-php-starter,,1,0,,,,
-kafka-merge-queue-sandbox,Java,0,1,,,,
-openserverless-nodejs-starter,,1,0,,,,
-paimon-rust,Rust,132,41,,,,
-maven-build-helper-plugin,,0,0,,,,
-maven-xinclude-extension,Java,4,1,,,,
-opendal-go-services,Go,14,2,,,,
-openserverless-mvdansh-fork,,1,0,,,,
-openserverless-taskfile-fork,,1,0,,,,
-parquet-benchmark,,0,2,,,,
-hertzbeat-helm-chart,Smarty,7,3,,,,
-paimon-python,Python,16,9,,,,
-incubator-resilientdb-ResDB-ORM,Python,2,0,,,,
-pulsar-java-contrib,Java,16,7,,,,
-arrow-go,Assembly,279,78,,,,
-infrastructure-github-merge-queue-notifier,Python,0,0,,,,
-logging-log4j-flume,Java,0,0,,,,
-ozhera-site,Vue,0,6,,,,
-echarts-custom-series,JavaScript,36,5,,,,
-incubator-resilientdb-smart-contracts-graphql,JavaScript,1,2,,,,
-cloudberry-devops-release,Shell,2,5,,,,
-nifi-api,Java,5,16,,,,
-maven-hocon-extension,Java,31,2,,,,
-datafusion-ray,Python,222,26,,,,
-avro-rs,Rust,88,42,,,,
-openserverless-vscode,,2,1,,,,
-shenyu-client-rust,Rust,13,4,,,,
-incubator-resilientdb-resvault-sdk,TypeScript,2,0,,,,
-fesod,Java,5341,445,,,,
-openoffice-translation,,2,0,,,,
-comdev-people,JavaScript,4,4,,,,
-incubator-resilientdb-create-resilient-app,Vue,2,0,,,,
-pulsar-sql,Java,4,2,,,,
-incubator-resilientdb-resilient-node-cache,TypeScript,2,0,,,,
-doris-jeager,,0,0,,,,
-sling-tooling-github,,0,0,,,,
-fluss,Java,1604,429,,,,
-logging-slf4j,Java,0,0,,,,
-logging-jdk,Java,1,2,,,,
-incubator-resilientdb-resilient-python-cache,Python,2,1,,,,
-incubator-resilientdb-ResLens,TypeScript,2,1,,,,
-camel-jbang-examples,Groovy,10,6,,,,
-incubator-resilientdb-ResLens-Middleware,JavaScript,0,1,,,,
-infrastructure-gha-allowlist-manager,Python,1,0,,,,
-iceberg-cpp,C++,158,68,,,,
-arrow-java,Java,69,96,,,,
-otava-website,TypeScript,0,0,,,,
-openserverless-streamer,Go,0,3,,,,
-incubator-resilientdb-resilient-contract-kit,TypeScript,0,0,,,,
-tooling-docs,HTML,5,4,,,,
-auron-sites,TypeScript,2,3,,,,
-sling-org-apache-sling-auth-oauth-client,Java,0,3,,,,
-grails-profiles,,0,3,,,,
-airflow-publish,Python,0,1,,,,
-skywalking-ruby,Ruby,5,2,,,,
-datafusion-testing,,1,6,,,,
-datasketches-spark,Scala,4,3,,,,
-tomee-quartz-shade,,1,0,,,,
-cloudstack-installer,Shell,9,7,,,,
-logging-admin,Java,0,0,,,,
-lucenenet-codeanalysis-dev,C#,2,5,,,,
-synapse-go,Go,6,4,,,,
-geronimo-mail,Java,1,4,,,,
-beam-starter-python-provider,Python,0,1,,,,
-attic-docker,Lua,0,0,,,,
-grails-data-hibernate6,,3,2,,,,
-beam-starter-java-provider,Java,0,2,,,,
-shenyu-client-java,Java,3,1,,,,
-echarts-from-mermaid,TypeScript,17,2,,,,
-infrastructure-voter-gateway,Python,0,0,,,,
-iggy-website,CSS,1,5,,,,
-infrastructure-jira-issues-import-test-curator,,0,0,,,,
-tooling-trusted-releases,Python,17,9,,,,
-daffodil-infrastructure,JavaScript,1,3,,,,
-incubator-resilientdb-ansible,Jinja,1,1,,,,
-infrastructure-abc,JavaScript,0,0,,,,
-superset-kubernetes-operator,,0,0,,,,
-polaris-tools,Java,10,18,,,,
-spark-connect-swift,Swift,27,7,,,,
-uniffle-rust,,0,0,,,,
-openoffice-devtools,Java,2,1,,,,
-arrow-rs-object-store,Rust,164,102,,,,
-arrow-dotnet,C#,17,9,,,,
-openserverless-tutorial,JavaScript,1,0,,,,
-infrastructure-catalog-service,Python,0,0,,,,
-incubator-resilientdb-orbit,Svelte,0,0,,,,
-iotdb-mcp-server,Python,28,17,,,,
-attic,Ruby,2,123,,,,
-doris-mcp-server,Python,221,61,,,,
-ambari-deploy,Python,2,2,,,,
-skywalking-mcp,Go,13,5,,,,
-hamilton-101,,0,0,,,,
-openserverless-build,Dockerfile,0,1,,,,
-arrow-js,TypeScript,70,16,,,,
-openserverless-admin,,0,0,,,,
-doris-opentelemetry-demo,TypeScript,6,4,,,,
-infrastructure-esp,Python,0,0,,,,
-spark-connect-rust,Rust,25,7,,,,
-flink-agents,Java,265,72,,,,
-sedona-testing,Python,5,3,,,,
-dubbo-helm-charts,,0,1,,,,
-arrow-swift,Swift,13,8,,,,
-airavata-portals,Python,3,7,,,,
-iggy-setup,TypeScript,0,1,,,,
-ranger-tools,Dockerfile,0,1,,,,
-netbeans-vscode,TypeScript,4,8,,,,
-arrow-skyhook,C++,0,1,,,,
-grails-gradle-publish,Groovy,2,0,,,,
-fluss-shaded,Java,2,1,,,,
-flink-connector-http,Java,4,1,,,,
-fluss-website,,1,2,,,,
-tooling-releases-client,Python,1,1,,,,
-fluss-benchmarks,,12,0,,,,
-echarts-mcp,JavaScript,50,3,,,,
-couchdb-cowlib,Erlang,0,0,,,,
-couchdb-gun,Erlang,0,0,,,,
-openserverless-admin-api,Python,1,2,,,,
-tooling-asf-example,Python,0,1,,,,
-geaflow-website,TypeScript,2,4,,,,
-seatunnel-tools,Java,14,3,,,,
-apache-boxer-test,,1,0,,,,
-openserverless-vscode-extension,TypeScript,0,0,,,,
-hertzbeat-collector-go,Go,20,10,,,,
-sedona-spatialbench,Rust,27,9,,,,
-sedona-db,Rust,331,30,,,,
-tooling-actions,Makefile,0,2,,,,
-fluss-rust,Rust,16,9,,,,
-tvm-ffi,C++,190,37,,,,
-lucenenet-extensions,,0,0,,,,
-datafusion-sandbox,Rust,1,0,,,,
-grails-website,,1,3,,,,
-cloudstack-extensions,,2,0,,,,
-grails-gradle-codestyle,,0,0,,,,
-solr-mcp,Java,3,3,,,,
-incubator-texera-site,CSS,1,1,,,,
-opendal-ofs,Rust,22,2,,,,
-opendal-oli,Rust,7,2,,,,
-openserverless-devcontainer,Python,0,2,,,,
-phoenix-adapters,Java,1,2,,,,
-rocketmq-a2a,,0,0,,,,
-infrastructure-staged,Python,0,1,,,,
+logging-flume-irc,,0,0,0.0,,,
+logging-flume-http,,2,0,0.0,,,
+iggy,Rust,3203,215,1317.0,2023-04-05 16:18:55+00:00,2025-11-21 14:53:52+00:00,960.0
+paimon-shade,Shell,10,9,27.0,2023-03-21 02:09:04+00:00,2024-09-09 02:09:13+00:00,538.0
+doris-shade,,2,18,35.0,2023-03-21 03:54:48+00:00,2025-06-13 09:14:51+00:00,815.0
+eventmesh-workflow,Go,30,16,26.0,2023-03-28 09:19:21+00:00,2023-07-04 09:49:58+00:00,98.0
+eventmesh-dashboard,Java,21,20,100.0,2023-03-28 09:22:24+00:00,2025-05-12 13:02:59+00:00,776.0
+eventmesh-go,Go,12,12,43.0,2023-03-28 09:23:01+00:00,2023-06-27 11:47:19+00:00,91.0
+eventmesh-catalog,Go,8,6,14.0,2023-03-28 12:35:06+00:00,2023-07-04 09:50:47+00:00,97.0
+logging-flume-hadoop,Java,1,1,7.0,2023-04-07 04:53:11+00:00,2024-05-12 22:06:27+00:00,401.0
+paimon-presto,Java,12,15,42.0,2023-03-31 05:24:23+00:00,2025-01-19 09:10:31+00:00,660.0
+paimon-trino,Java,39,48,69.0,2023-03-31 05:25:17+00:00,2025-06-16 08:47:17+00:00,808.0
+ranger-site,HTML,2,2,5.0,2023-03-31 07:35:50+00:00,2025-09-25 21:33:05+00:00,909.0
+skywalking-go,Go,346,106,159.0,2023-04-11 03:44:04+00:00,2025-10-23 09:02:54+00:00,926.0
+skywalking-grafana-plugins,TypeScript,30,6,79.0,2023-04-11 15:20:08+00:00,2024-12-16 02:52:35+00:00,614.0
+kyuubi-shaded,Java,6,8,62.0,2023-04-23 04:32:21+00:00,2025-07-21 03:48:37+00:00,819.0
+maven-blog,,2,0,4.0,2023-04-25 20:06:05+00:00,2023-04-27 06:35:35+00:00,1.0
+gravitino,Java,2337,670,3218.0,2023-04-23 02:09:00+00:00,2025-11-22 09:11:17+00:00,944.0
+skywalking-terraform,HCL,12,5,33.0,2023-04-25 12:41:23+00:00,2024-03-11 13:54:25+00:00,321.0
+airflow-site-archive,,1,1,131.0,2023-04-26 10:03:35+00:00,2025-11-19 09:46:23+00:00,937.0
+fory,Java,4068,340,1574.0,2023-04-28 04:59:26+00:00,2025-11-22 02:17:21+00:00,938.0
+causeway-blog,,1,0,4.0,2023-05-01 15:42:32+00:00,2024-07-04 13:41:54+00:00,429.0
+doris-sdk,Thrift,8,7,10.0,2023-05-04 15:04:15+00:00,2024-03-28 02:20:44+00:00,328.0
+pekko-quickstart-scala.g8,Scala,12,1,121.0,2014-10-17 18:33:34+00:00,2025-09-08 15:20:15+00:00,3978.0
+pekko-quickstart-java.g8,Java,4,0,129.0,2014-10-17 18:34:28+00:00,2025-09-08 15:32:23+00:00,3978.0
+cassandra-analytics,Java,28,21,149.0,2023-05-19 21:57:47+00:00,2025-11-21 16:48:06+00:00,916.0
+cloudberry-site,TypeScript,18,35,310.0,2023-05-12 04:05:17+00:00,2025-11-10 03:46:24+00:00,912.0
+infrastructure-oauth,Python,6,13,19.0,2023-05-17 17:55:39+00:00,2025-10-08 16:30:51+00:00,874.0
+cloudberry,C,1126,185,71703.0,1996-07-09 06:22:35+00:00,2025-06-12 11:59:03+00:00,10565.0
+fory-site,TypeScript,22,26,531.0,2023-05-23 09:47:54+00:00,2025-11-15 15:12:55+00:00,907.0
+iotdb-client-csharp,C#,20,4,307.0,2021-04-01 09:16:42+00:00,2025-08-26 13:37:16+00:00,1608.0
+netbeans-mavenutils-archetypes,Groovy,1,4,16.0,2023-05-26 09:01:32+00:00,2023-07-25 10:53:48+00:00,60.0
+kyuubi-service-rpc,Java,1,3,5.0,2023-05-29 04:06:42+00:00,2023-08-15 03:35:37+00:00,77.0
+bifromq,Java,729,75,697.0,2023-05-29 07:27:31+00:00,2025-11-20 01:20:04+00:00,905.0
+bifromq-sites,HTML,7,6,174.0,2023-06-19 06:23:09+00:00,2025-11-21 06:01:29+00:00,885.0
+spark-connect-go,Go,240,47,117.0,2023-05-30 10:16:18+00:00,2025-08-26 12:24:59+00:00,819.0
+infrastructure-blogs-archive,HTML,3,1,48.0,2023-05-31 15:13:38+00:00,2025-07-24 17:22:20+00:00,785.0
+hadoop-api-shim,Java,7,3,9.0,2022-06-08 12:41:41+00:00,2024-02-19 18:46:26+00:00,621.0
+geaflow,Java,742,152,329.0,2023-06-10 07:48:59+00:00,2025-11-20 03:16:09+00:00,893.0
+ctakes-website,HTML,0,0,45.0,2023-06-07 15:48:24+00:00,2025-03-06 18:38:22+00:00,638.0
+dubbo-go-contrib,Go,2,1,10.0,2023-06-08 09:48:18+00:00,2023-06-12 09:33:36+00:00,3.0
+hbase-kustomize,Shell,3,2,8.0,2023-06-13 12:36:27+00:00,2024-01-02 07:51:38+00:00,202.0
+causeway-app-referenceapp,Java,2,2,83.0,2023-06-19 11:00:00+00:00,2025-11-04 11:21:21+00:00,869.0
+infrastructure-reporting-dashboard,Python,4,1,243.0,2023-06-22 18:36:18+00:00,2025-11-06 17:42:54+00:00,867.0
+comdev-reporter,,4,1,2.0,2023-06-29 09:04:58+00:00,2025-08-08 07:17:21+00:00,770.0
+doris-operator,Go,121,59,870.0,2023-07-05 03:25:30+00:00,2025-11-19 10:16:33+00:00,868.0
+iotdb-docs,TypeScript,21,107,804.0,2023-07-10 02:56:31+00:00,2025-11-20 11:39:51+00:00,864.0
+paimon-webui,Java,141,66,266.0,2023-07-06 08:04:51+00:00,2024-09-09 09:31:31+00:00,431.0
+shenyu-wasm,Java,5,4,280.0,2019-11-25 20:14:01+00:00,2024-01-06 09:30:20+00:00,1502.0
+uima-ducc,Java,1,0,4948.0,2013-01-02 18:47:50+00:00,2020-05-27 12:41:11+00:00,2701.0
+iceberg-rust,Rust,1143,354,965.0,2023-07-21 06:24:44+00:00,2025-11-20 17:23:19+00:00,853.0
+incubator-xtable,Java,1123,190,344.0,2023-07-21 19:07:10+00:00,2025-11-19 22:52:51+00:00,852.0
+cloudberry-bootcamp,Shell,20,9,127.0,2023-07-13 07:21:15+00:00,2025-06-11 08:10:07+00:00,699.0
+grails-github-actions,Groovy,2,2,247.0,2020-01-31 11:22:08+00:00,2025-10-20 10:19:08+00:00,2088.0
+publicaffairs-website,,1,0,0.0,,,
+infrastructure-test-cibuilds,,1,0,4.0,2023-07-27 13:47:20+00:00,2023-07-27 14:09:32+00:00,0.0
+infrastructure-asfquart,Python,5,5,268.0,2023-08-24 11:39:54+00:00,2025-11-22 01:07:40+00:00,820.0
+infrastructure-shorten,Python,0,0,6.0,2023-07-31 13:40:53+00:00,2025-08-19 19:16:55+00:00,750.0
+amoro-site,SCSS,6,18,173.0,2023-07-24 03:45:38+00:00,2025-11-11 02:26:48+00:00,840.0
+apachecon-eu,HTML,6,12,213.0,2023-08-02 08:32:54+00:00,2024-11-27 13:59:08+00:00,483.0
+iceberg-python,Python,932,398,2274.0,2023-09-29 09:16:26+00:00,2025-11-21 14:45:06+00:00,784.0
+infrastructure-paste,,0,0,1.0,2023-08-02 10:30:21+00:00,2023-08-02 10:30:21+00:00,0.0
+iceberg-go,Go,357,126,380.0,2023-08-15 16:31:29+00:00,2025-11-18 20:56:48+00:00,826.0
+skywalking-banyandb-helm,Shell,9,1,45.0,2023-08-11 08:06:49+00:00,2025-11-20 02:31:37+00:00,831.0
+curator-site,TypeScript,0,2,32.0,2023-08-14 06:47:17+00:00,2025-07-23 20:02:53+00:00,709.0
+bloodhound-site,HTML,2,1,4.0,2023-08-26 00:48:14+00:00,2023-08-26 04:52:34+00:00,0.0
+sling-org-apache-sling-commons-metrics-prometheus,Java,0,0,24.0,2019-08-01 15:27:50+00:00,2025-08-06 12:20:02+00:00,2196.0
+datasketches-python,Jupyter Notebook,37,8,168.0,2023-09-01 21:50:38+00:00,2025-02-19 01:59:03+00:00,536.0
+logging-log4j-jmx-gui,Java,2,2,351.0,2013-08-26 12:26:28+00:00,2025-10-20 18:14:40+00:00,4438.0
+accumulo-access,Java,6,15,81.0,2023-09-07 17:01:56+00:00,2025-11-18 12:23:58+00:00,802.0
+ozhera,Java,108,41,499.0,2023-09-04 07:42:46+00:00,2025-11-19 02:56:22+00:00,806.0
+shardingsphere-plugin,Java,35,23,75.0,2023-09-08 03:49:47+00:00,2025-02-24 07:29:40+00:00,535.0
+zeppelin-site,JavaScript,9,12,361.0,2013-10-17 01:22:28+00:00,2025-11-11 16:23:46+00:00,4408.0
+infra-transfer-test,,0,0,1.0,2023-09-19 15:12:55+00:00,2023-09-19 15:12:55+00:00,0.0
+flink-connector-prometheus,Java,16,4,20.0,2023-09-25 08:31:43+00:00,2024-11-11 09:22:25+00:00,413.0
+airavata-cookiecutter-django-app,Python,0,0,16.0,2021-05-27 15:51:28+00:00,2022-10-07 17:37:10+00:00,498.0
+airavata-cookiecutter-django-output-view,Python,0,0,10.0,2021-05-28 19:11:21+00:00,2021-07-14 18:01:57+00:00,46.0
+nutch-airflow-tools,,0,0,0.0,,,
+beam-swift,Swift,1,3,31.0,2023-10-02 16:43:29+00:00,2025-08-14 00:05:07+00:00,681.0
+netbeans-antora-ui,SCSS,4,5,331.0,2018-02-21 10:49:25+00:00,2025-11-20 09:12:49+00:00,2828.0
+netbeans-antora-wiki,,3,32,122.0,2018-02-21 10:49:25+00:00,2025-10-16 13:59:04+00:00,2794.0
+netbeans-antora-tutorials,Java,10,533,681.0,2019-01-06 10:32:15+00:00,2025-11-16 21:55:21+00:00,2506.0
+netbeans-antora,JavaScript,6,7,150.0,2023-10-04 17:08:41+00:00,2025-11-17 09:39:13+00:00,774.0
+netbeans-antora-site,HTML,12,1259,989.0,2018-02-21 10:49:25+00:00,2025-11-17 18:14:08+00:00,2826.0
+incubator-hugegraph-ai,Python,103,62,202.0,2023-10-09 04:02:39+00:00,2025-11-15 12:10:02+00:00,768.0
+incubator-resilientdb-cdn,JavaScript,0,0,8.0,2023-10-13 04:52:51+00:00,2025-06-28 11:57:35+00:00,624.0
+sling-org-apache-sling-feature-analyser-classes,Java,1,0,7.0,2023-10-17 10:52:33+00:00,2025-08-06 12:20:02+00:00,659.0
+turbine-parent-assembly-default,,0,0,13.0,2016-12-09 13:47:01+00:00,2021-09-27 13:12:02+00:00,1752.0
+incubator-seata-ctl,Go,8,6,13.0,2023-10-25 07:41:52+00:00,2025-06-14 09:49:36+00:00,598.0
+incubator-resilientdb-rust_sdk,Rust,2,1,51.0,2023-11-04 21:09:36+00:00,2025-07-17 08:38:46+00:00,620.0
+couchdb-fast-pbkdf2,C,0,0,40.0,2021-02-10 19:13:20+00:00,2024-01-25 13:53:15+00:00,1078.0
+cloudstack-csbench,Go,6,10,23.0,2023-07-21 08:02:22+00:00,2025-07-14 03:53:01+00:00,723.0
+skywalking-graalvm-distro,Java,10,0,11.0,2023-11-09 02:51:48+00:00,2024-02-19 08:21:36+00:00,102.0
+incubator-devlake-terraform,Go,5,3,41.0,2023-11-14 04:48:16+00:00,2025-05-29 18:40:00+00:00,562.0
+logging-log4j-jakarta,Java,2,0,197.0,2012-02-06 23:55:13+00:00,2025-01-28 16:31:23+00:00,4739.0
+cloudberry-backup,Go,9,11,1930.0,2017-05-12 18:18:14+00:00,2025-10-15 09:44:05+00:00,3077.0
+datasketches-java-common,Java,0,0,4.0,2023-11-15 20:25:09+00:00,2023-11-18 02:11:13+00:00,2.0
+cloudberry-go-libs,Go,2,3,126.0,2017-05-12 18:18:14+00:00,2025-09-08 03:41:18+00:00,3040.0
+tsfile,Java,164,84,1386.0,2018-11-19 03:31:03+00:00,2025-11-20 02:01:00+00:00,2557.0
+airavata-cerebrum,Jupyter Notebook,4,7,81.0,2023-11-28 13:24:52+00:00,2024-10-06 11:42:24+00:00,312.0
+cloudberry-pxf,Java,4,9,1431.0,2015-09-19 00:33:01+00:00,2025-06-24 13:09:38+00:00,3566.0
+pekko-http-quickstart-scala.g8,Scala,1,0,139.0,2017-04-25 19:43:24+00:00,2025-10-30 15:18:29+00:00,3109.0
+pekko-http-quickstart-java.g8,Java,0,0,115.0,2017-04-25 19:43:48+00:00,2025-10-26 11:58:47+00:00,3105.0
+incubator-resilientdb-ResCLI,Ruby,3,0,78.0,2023-12-03 11:31:47+00:00,2025-07-14 16:27:20+00:00,589.0
+dubbo-integration-cases,Java,5,18,1585.0,2018-04-28 09:25:30+00:00,2025-11-13 08:02:39+00:00,2755.0
+pekko-grpc-quickstart-scala.g8,Scala,2,2,110.0,2018-07-10 09:21:49+00:00,2025-11-18 16:53:20+00:00,2688.0
+pekko-grpc-quickstart-java.g8,Java,1,1,88.0,2018-07-26 15:09:42+00:00,2025-11-18 16:53:09+00:00,2672.0
+orc-format,,14,7,26.0,2023-12-05 17:10:05+00:00,2025-08-13 17:22:01+00:00,617.0
+sling-org-apache-sling-providertype-bnd-plugin,Java,0,0,12.0,2023-12-05 16:11:45+00:00,2025-08-06 12:20:02+00:00,609.0
+manifoldcf-site,HTML,2,2,23.0,2023-12-13 14:44:18+00:00,2024-12-20 19:06:16+00:00,373.0
+gravitino-playground,Jupyter Notebook,62,46,72.0,2023-12-08 09:00:46+00:00,2025-09-29 11:47:38+00:00,661.0
+datasketches-go,Go,17,8,304.0,2023-12-14 05:16:24+00:00,2025-11-19 13:46:22+00:00,706.0
+manifoldcf-sdk,Shell,1,0,6.0,2023-12-21 22:00:01+00:00,2025-02-10 10:34:15+00:00,416.0
+airflow-mssql-migration,Python,1,1,3.0,2023-12-29 20:18:57+00:00,2024-01-24 22:12:50+00:00,26.0
+dubbo-research,,0,0,1.0,2024-01-10 13:49:05+00:00,2024-01-10 13:49:05+00:00,0.0
+opennlp-models,Shell,10,2,72.0,2023-12-22 18:48:09+00:00,2025-11-21 11:49:07+00:00,699.0
+activemq-artemis-examples,Java,36,30,76.0,2023-12-13 11:44:26+00:00,2025-11-03 14:09:48+00:00,691.0
+storm-docker,Dockerfile,2,3,87.0,2016-04-09 16:02:39+00:00,2025-11-04 09:49:54+00:00,3495.0
+jackrabbit-site,CSS,1,2,969.0,2011-12-08 14:22:17+00:00,2025-11-04 18:03:19+00:00,5080.0
+datafusion-comet,Scala,1071,253,1342.0,2024-01-15 17:41:36+00:00,2025-11-22 02:32:54+00:00,676.0
+tomcat-tck,Java,5,3,109.0,2024-01-15 14:23:03+00:00,2025-10-17 10:30:52+00:00,640.0
+doris-streamloader,Go,30,19,29.0,2024-01-17 09:56:30+00:00,2025-02-26 14:21:34+00:00,406.0
+daffodil-sbt,Scala,1,6,64.0,2024-01-22 14:35:10+00:00,2025-11-12 15:15:29+00:00,660.0
+hive-dev-box,Shell,0,0,5.0,2024-01-23 06:10:56+00:00,2024-01-23 06:36:43+00:00,0.0
+trafficserver-libswoc,C++,4,8,623.0,2018-09-13 23:30:35+00:00,2025-10-07 23:00:18+00:00,2580.0
+streams-activitypub,Scala,1,0,7.0,2024-02-09 17:05:08+00:00,2024-02-26 16:19:01+00:00,16.0
+tsfile-website,HTML,1,1,54.0,2024-01-28 09:00:42+00:00,2025-11-22 06:24:39+00:00,663.0
+incubator-kie-website,TypeScript,1,8,68.0,2024-01-29 20:46:28+00:00,2025-10-13 13:13:54+00:00,622.0
+infrastructure-asfyaml,Python,9,13,316.0,2024-02-05 09:54:26+00:00,2025-11-01 23:37:58+00:00,635.0
+burr,Python,1848,99,828.0,2024-01-29 23:27:08+00:00,2025-11-10 04:53:32+00:00,650.0
+struts-intellij-plugin,Java,1,2,97.0,2023-05-07 17:22:23+00:00,2025-08-16 07:21:37+00:00,831.0
+sling-org-apache-sling-resource-observation-annotations,Java,1,0,8.0,2024-02-07 12:02:55+00:00,2025-08-06 12:20:02+00:00,546.0
+incubator-gluten-site,Jupyter Notebook,3,8,96.0,2024-02-08 07:57:05+00:00,2025-11-21 21:28:09+00:00,652.0
+infrastructure-ezmlm-idx,,0,0,1026.0,2003-11-12 20:48:13+00:00,2025-09-09 14:51:34+00:00,7971.0
+comdev-working-groups,,41,25,101.0,2024-02-13 20:04:58+00:00,2024-10-27 14:12:35+00:00,256.0
+hadoop-release-support,Java,1,3,38.0,2022-05-10 15:17:04+00:00,2025-11-07 13:49:57+00:00,1276.0
+manifoldcf-integration-solr-8x,Java,0,0,8.0,2019-12-18 00:41:51+00:00,2019-12-18 07:32:26+00:00,0.0
+incubator-resilientdb-explorer,Vue,3,0,36.0,2024-02-23 01:33:22+00:00,2024-09-30 04:25:23+00:00,220.0
+incubator-devlake-playground,Python,6,3,31.0,2024-03-02 02:10:39+00:00,2025-07-23 14:45:39+00:00,508.0
+doris-kafka-connector,Java,22,15,70.0,2024-03-03 09:39:08+00:00,2025-08-13 09:56:56+00:00,528.0
+sling-org-apache-sling-commons-json,,0,1,147.0,2007-09-09 17:55:57+00:00,2025-08-06 12:20:02+00:00,6540.0
+incubator-xtable-site,HTML,1,0,48.0,2024-03-08 22:06:14+00:00,2025-09-08 14:05:42+00:00,548.0
+rocketmq-amqp,,1,0,0.0,,,
+infrastructure-gha-workflow-scanner,Python,1,0,79.0,2024-03-15 19:42:39+00:00,2025-02-26 13:43:34+00:00,347.0
+flink-connector-kudu,Java,5,8,62.0,2024-03-26 08:58:39+00:00,2025-04-12 05:36:11+00:00,381.0
+plc4x-extras,Java,15,17,548.0,2024-04-04 19:35:16+00:00,2025-11-21 09:37:23+00:00,595.0
+spark-kubernetes-operator,Java,233,46,407.0,2024-03-29 20:36:46+00:00,2025-11-20 03:16:56+00:00,600.0
+incubator-graphar-website,MDX,0,5,51.0,2024-02-01 12:02:46+00:00,2025-11-13 07:15:42+00:00,650.0
+stormcrawler-site,HTML,2,2,198.0,2015-11-26 17:51:32+00:00,2025-09-20 17:56:51+00:00,3586.0
+iotdb-extras,Java,20,17,79.0,2024-04-15 08:23:55+00:00,2025-09-24 08:26:02+00:00,527.0
+netbeans-samples,Java,3,1,1.0,2024-04-09 13:30:43+00:00,2024-04-09 13:30:43+00:00,0.0
+amoro-shade,Shell,2,4,12.0,2024-04-09 06:48:03+00:00,2024-09-05 12:02:01+00:00,149.0
+xerces-j,Java,5,11,5651.0,1999-11-09 01:10:52+00:00,2025-11-21 23:50:09+00:00,9509.0
+infrastructure-ideas,,2,2,17.0,2024-06-18 16:55:03+00:00,2025-03-13 14:48:44+00:00,267.0
+activemq-artemis-console,TypeScript,5,14,220.0,2024-04-23 06:27:10+00:00,2025-11-18 21:56:11+00:00,574.0
+infrastructure-actions,Python,17,38,755.0,2024-05-16 19:14:51+00:00,2025-11-21 09:13:55+00:00,553.0
+infrastructure-jira-issues-importer-2,,0,0,0.0,,,
+voxpupuli-puppet-fail2ban,,1,0,399.0,2014-11-07 08:45:38+00:00,2024-05-06 15:06:02+00:00,3468.0
+hudi-rs,Rust,262,53,204.0,2024-05-03 20:56:17+00:00,2025-11-03 18:08:14+00:00,548.0
+datafusion-site,JavaScript,5,18,76.0,2024-05-16 00:25:26+00:00,2025-10-22 13:42:10+00:00,524.0
+datafusion-benchmarks,Python,22,11,13.0,2024-05-14 13:12:52+00:00,2025-09-29 15:18:32+00:00,503.0
+bigtop-manager,Java,105,43,257.0,2024-06-01 08:09:02+00:00,2025-11-20 05:48:34+00:00,536.0
+datasketches-bigquery,JavaScript,16,6,344.0,2024-06-11 01:01:12+00:00,2025-06-09 18:57:22+00:00,363.0
+ozone-helm-charts,Smarty,12,9,18.0,2024-06-20 09:06:59+00:00,2025-11-04 11:15:35+00:00,502.0
+dubbo-spi-samples,Java,8,8,21.0,2024-05-17 02:45:23+00:00,2024-12-04 01:10:39+00:00,200.0
+polaris,Java,1743,332,2153.0,2024-05-29 18:44:28+00:00,2025-11-21 23:01:53+00:00,541.0
+cloudberry-gpbackup-s3-plugin,Go,4,6,111.0,2018-03-23 19:11:30+00:00,2025-10-09 13:30:11+00:00,2756.0
+manifoldcf-integration-solr-9x,Java,1,0,11.0,2019-12-18 00:41:51+00:00,2022-09-04 06:01:58+00:00,991.0
+nifi-python-extensions,Python,25,13,13.0,2024-06-26 04:28:36+00:00,2024-11-13 20:16:57+00:00,140.0
+tika-grpc-docker,Dockerfile,1,0,1.0,2024-07-04 13:34:39+00:00,2024-07-04 13:34:39+00:00,0.0
+incubator-resilientdb-ResContract,JavaScript,2,2,42.0,2024-06-27 03:01:28+00:00,2025-08-28 22:59:52+00:00,427.0
+dubbo-ai,Java,7,5,39.0,2024-06-27 03:22:45+00:00,2024-09-09 01:01:30+00:00,73.0
+camel-upgrade-recipes,Java,5,11,127.0,2024-07-09 07:55:05+00:00,2025-11-20 15:03:23+00:00,499.0
+gravitino-site,HTML,3,16,140.0,2024-07-05 02:07:30+00:00,2025-11-20 02:26:11+00:00,503.0
+openserverless,Shell,564,19,58.0,2024-06-29 07:32:07+00:00,2025-11-10 18:57:29+00:00,499.0
+openserverless-site,CSS,10,15,102.0,2024-06-29 07:39:40+00:00,2025-08-01 14:51:57+00:00,398.0
+openserverless-task,JavaScript,8,13,1166.0,2023-02-26 15:59:39+00:00,2025-11-09 18:05:23+00:00,987.0
+openserverless-cli,Go,16,12,217.0,2024-07-07 10:24:33+00:00,2025-04-06 21:56:06+00:00,273.0
+openserverless-runtimes,Go,6,8,408.0,2018-03-08 14:40:11+00:00,2025-06-12 06:40:18+00:00,2652.0
+openserverless-operator,Python,9,6,177.0,2024-07-09 17:19:33+00:00,2025-10-01 16:25:27+00:00,448.0
+openserverless-testing,Shell,1,4,54.0,2024-07-26 16:07:35+00:00,2025-11-10 15:18:30+00:00,471.0
+openserverless-python-starter,,1,0,0.0,,,
+openserverless-documentation,,1,0,0.0,,,
+openserverless-php-starter,,1,0,0.0,,,
+kafka-merge-queue-sandbox,Java,0,1,74.0,2024-07-02 17:03:28+00:00,2025-03-25 20:44:06+00:00,266.0
+openserverless-nodejs-starter,,1,0,0.0,,,
+paimon-rust,Rust,132,41,42.0,2024-07-05 05:22:28+00:00,2025-04-22 15:31:13+00:00,291.0
+maven-build-helper-plugin,,0,0,1.0,2024-07-18 15:14:25+00:00,2024-07-18 15:14:25+00:00,0.0
+maven-xinclude-extension,Java,4,1,36.0,2024-07-08 19:53:39+00:00,2025-10-03 11:13:26+00:00,451.0
+opendal-go-services,Go,14,2,52.0,2024-07-13 07:46:40+00:00,2025-09-11 15:27:54+00:00,425.0
+openserverless-mvdansh-fork,,1,0,0.0,,,
+openserverless-taskfile-fork,,1,0,0.0,,,
+parquet-benchmark,,0,2,3.0,2024-08-19 18:58:26+00:00,2024-09-18 15:20:15+00:00,29.0
+hertzbeat-helm-chart,Smarty,7,3,47.0,2023-09-04 08:25:33+00:00,2025-11-17 00:37:22+00:00,804.0
+paimon-python,Python,16,9,45.0,2024-08-14 05:44:18+00:00,2025-07-28 02:05:08+00:00,347.0
+incubator-resilientdb-ResDB-ORM,Python,2,0,37.0,2024-08-09 02:09:19+00:00,2025-11-11 20:43:47+00:00,459.0
+pulsar-java-contrib,Java,16,7,16.0,2024-08-20 12:48:00+00:00,2025-11-12 11:17:35+00:00,448.0
+arrow-go,Assembly,279,78,969.0,2024-08-29 03:08:02+00:00,2025-11-18 20:52:49+00:00,446.0
+infrastructure-github-merge-queue-notifier,Python,0,0,7.0,2024-08-29 16:58:11+00:00,2025-09-18 00:08:15+00:00,384.0
+logging-log4j-flume,Java,0,0,394.0,2012-02-06 23:55:13+00:00,2024-08-06 10:28:13+00:00,4564.0
+ozhera-site,Vue,0,6,36.0,2024-09-13 03:21:52+00:00,2025-03-31 09:18:37+00:00,199.0
+echarts-custom-series,JavaScript,36,5,70.0,2024-09-02 08:05:13+00:00,2025-08-18 08:37:38+00:00,350.0
+incubator-resilientdb-smart-contracts-graphql,JavaScript,1,2,41.0,2024-09-06 03:38:40+00:00,2025-07-17 09:04:33+00:00,314.0
+cloudberry-devops-release,Shell,2,5,47.0,2024-08-16 17:30:55+00:00,2025-09-12 14:34:16+00:00,391.0
+nifi-api,Java,5,16,42.0,2024-09-16 18:24:36+00:00,2025-11-09 02:16:49+00:00,418.0
+maven-hocon-extension,Java,31,2,36.0,2024-09-12 15:00:21+00:00,2025-07-16 19:23:09+00:00,307.0
+datafusion-ray,Python,222,26,46.0,2024-09-19 20:59:38+00:00,2025-10-05 16:14:43+00:00,380.0
+avro-rs,Rust,88,42,975.0,2021-05-24 15:20:31+00:00,2025-11-13 07:37:39+00:00,1633.0
+openserverless-vscode,,2,1,1.0,2024-10-05 20:01:48+00:00,2024-10-05 20:01:48+00:00,0.0
+shenyu-client-rust,Rust,13,4,29.0,2024-10-01 07:09:20+00:00,2025-06-12 04:28:43+00:00,253.0
+incubator-resilientdb-resvault-sdk,TypeScript,2,0,15.0,2024-10-03 07:24:51+00:00,2025-07-17 08:31:34+00:00,287.0
+fesod,Java,5341,445,267.0,2024-10-05 11:42:50+00:00,2025-11-21 00:43:05+00:00,411.0
+openoffice-translation,,2,0,257.0,2019-01-01 08:56:19+00:00,2019-11-26 06:17:08+00:00,328.0
+comdev-people,JavaScript,4,4,336.0,2015-12-03 14:19:41+00:00,2025-09-11 14:44:01+00:00,3570.0
+incubator-resilientdb-create-resilient-app,Vue,2,0,20.0,2024-10-17 06:38:26+00:00,2025-07-16 19:32:07+00:00,272.0
+pulsar-sql,Java,4,2,416.0,2018-08-06 17:29:26+00:00,2024-10-18 05:16:28+00:00,2264.0
+incubator-resilientdb-resilient-node-cache,TypeScript,2,0,13.0,2024-10-31 04:03:04+00:00,2025-07-17 04:40:44+00:00,259.0
+doris-jeager,,0,0,0.0,,,
+sling-tooling-github,,0,0,1.0,2024-11-25 18:02:06+00:00,2024-11-25 18:02:06+00:00,0.0
+fluss,Java,1604,429,883.0,2024-11-25 13:59:32+00:00,2025-11-20 06:52:27+00:00,359.0
+logging-slf4j,Java,0,0,435.0,2024-11-06 10:42:40+00:00,2024-12-23 08:51:34+00:00,46.0
+logging-jdk,Java,1,2,153.0,2024-11-06 10:12:46+00:00,2024-11-06 12:19:53+00:00,0.0
+incubator-resilientdb-resilient-python-cache,Python,2,1,20.0,2024-11-08 11:36:53+00:00,2025-07-17 05:36:21+00:00,250.0
+incubator-resilientdb-ResLens,TypeScript,2,1,151.0,2024-11-12 06:49:35+00:00,2025-07-16 12:59:57+00:00,246.0
+camel-jbang-examples,Groovy,10,6,54.0,2024-11-15 15:46:01+00:00,2025-11-12 11:12:01+00:00,361.0
+incubator-resilientdb-ResLens-Middleware,JavaScript,0,1,50.0,2024-11-29 22:39:28+00:00,2025-07-18 05:49:07+00:00,230.0
+infrastructure-gha-allowlist-manager,Python,1,0,64.0,2024-11-21 20:29:50+00:00,2025-04-01 13:01:58+00:00,130.0
+iceberg-cpp,C++,158,68,238.0,2024-11-22 14:29:19+00:00,2025-11-21 08:27:18+00:00,363.0
+arrow-java,Java,69,96,1756.0,2024-11-25 02:43:25+00:00,2025-11-17 00:12:50+00:00,356.0
+otava-website,TypeScript,0,0,21.0,2025-02-18 06:25:32+00:00,2025-07-20 02:14:37+00:00,151.0
+openserverless-streamer,Go,0,3,42.0,2024-12-07 15:47:11+00:00,2025-11-08 06:33:16+00:00,335.0
+incubator-resilientdb-resilient-contract-kit,TypeScript,0,0,12.0,2024-12-05 02:22:27+00:00,2025-07-17 04:04:08+00:00,224.0
+tooling-docs,HTML,5,4,233.0,2024-12-11 15:00:01+00:00,2025-11-21 18:22:16+00:00,345.0
+auron-sites,TypeScript,2,3,34.0,2024-12-03 03:21:21+00:00,2025-09-11 09:27:28+00:00,282.0
+sling-org-apache-sling-auth-oauth-client,Java,0,3,176.0,2022-05-16 14:50:01+00:00,2025-11-21 14:52:07+00:00,1285.0
+grails-profiles,,0,3,2762.0,2014-09-18 16:41:35+00:00,2025-05-02 16:04:55+00:00,3878.0
+airflow-publish,Python,0,1,18.0,2024-12-12 23:40:27+00:00,2025-05-16 21:41:16+00:00,154.0
+skywalking-ruby,Ruby,5,2,8.0,2024-12-21 13:01:41+00:00,2025-07-20 02:53:11+00:00,210.0
+datafusion-testing,,1,6,15.0,2024-12-26 16:38:32+00:00,2025-10-16 10:34:13+00:00,293.0
+datasketches-spark,Scala,4,3,101.0,2024-12-20 20:45:05+00:00,2025-04-02 16:27:26+00:00,102.0
+tomee-quartz-shade,,1,0,36.0,2013-12-08 23:14:09+00:00,2025-10-27 19:14:52+00:00,4340.0
+cloudstack-installer,Shell,9,7,38.0,2024-05-13 10:36:19+00:00,2025-08-07 11:53:54+00:00,451.0
+logging-admin,Java,0,0,11.0,2024-11-02 08:22:37+00:00,2024-12-30 16:10:42+00:00,58.0
+lucenenet-codeanalysis-dev,C#,2,5,26.0,2023-11-15 17:14:14+00:00,2025-10-18 21:07:41+00:00,703.0
+synapse-go,Go,6,4,40.0,2025-01-02 03:26:25+00:00,2025-10-06 14:42:22+00:00,277.0
+geronimo-mail,Java,1,4,268.0,2006-06-14 10:18:51+00:00,2025-11-16 08:03:44+00:00,7094.0
+beam-starter-python-provider,Python,0,1,9.0,2025-01-16 21:18:25+00:00,2025-06-27 22:28:56+00:00,162.0
+attic-docker,Lua,0,0,29.0,2025-01-12 14:30:01+00:00,2025-10-09 16:59:18+00:00,270.0
+grails-data-hibernate6,,3,2,2438.0,2016-06-10 19:03:23+00:00,2025-05-21 21:30:03+00:00,3267.0
+beam-starter-java-provider,Java,0,2,35.0,2024-03-20 22:53:42+00:00,2025-11-03 02:27:57+00:00,592.0
+shenyu-client-java,Java,3,1,10.0,2025-02-10 07:22:00+00:00,2025-06-05 03:12:23+00:00,114.0
+echarts-from-mermaid,TypeScript,17,2,14.0,2025-01-24 09:34:22+00:00,2025-03-20 09:17:42+00:00,54.0
+infrastructure-voter-gateway,Python,0,0,14.0,2025-01-24 18:03:04+00:00,2025-01-27 10:10:19+00:00,2.0
+iggy-website,CSS,1,5,75.0,2025-02-09 15:49:56+00:00,2025-11-20 11:03:29+00:00,283.0
+infrastructure-jira-issues-import-test-curator,,0,0,0.0,,,
+tooling-trusted-releases,Python,17,9,1581.0,2025-02-11 18:15:54+00:00,2025-11-20 23:40:00+00:00,282.0
+daffodil-infrastructure,JavaScript,1,3,19.0,2025-02-24 16:05:41+00:00,2025-11-04 17:23:29+00:00,253.0
+incubator-resilientdb-ansible,Jinja,1,1,17.0,2025-02-14 21:51:33+00:00,2025-09-26 18:14:55+00:00,223.0
+infrastructure-abc,JavaScript,0,0,27.0,2025-02-13 09:00:20+00:00,2025-07-03 16:57:22+00:00,140.0
+superset-kubernetes-operator,,0,0,0.0,,,
+polaris-tools,Java,10,18,51.0,2025-03-27 09:15:13+00:00,2025-11-22 10:14:03+00:00,240.0
+spark-connect-swift,Swift,27,7,253.0,2025-03-10 23:27:17+00:00,2025-11-20 03:15:58+00:00,254.0
+uniffle-rust,,0,0,0.0,,,
+openoffice-devtools,Java,2,1,655.0,2012-11-26 03:32:20+00:00,2025-11-01 21:04:12+00:00,4723.0
+arrow-rs-object-store,Rust,164,102,497.0,2022-07-22 18:30:34+00:00,2025-11-22 04:20:36+00:00,1218.0
+arrow-dotnet,C#,17,9,450.0,2025-03-31 02:55:47+00:00,2025-11-21 15:16:04+00:00,235.0
+openserverless-tutorial,JavaScript,1,0,6.0,2025-03-17 06:25:20+00:00,2025-03-22 22:14:07+00:00,5.0
+infrastructure-catalog-service,Python,0,0,6.0,2025-04-02 18:21:16+00:00,2025-04-04 16:05:07+00:00,1.0
+incubator-resilientdb-orbit,Svelte,0,0,14.0,2025-04-12 00:15:05+00:00,2025-07-16 19:48:55+00:00,95.0
+iotdb-mcp-server,Python,28,17,9.0,2025-04-02 07:54:50+00:00,2025-07-16 06:58:03+00:00,104.0
+attic,Ruby,2,123,798.0,2009-01-01 10:50:36+00:00,2025-11-21 15:15:09+00:00,6168.0
+doris-mcp-server,Python,221,61,62.0,2025-05-06 03:24:33+00:00,2025-11-04 06:45:38+00:00,182.0
+ambari-deploy,Python,2,2,3.0,2025-04-21 05:28:09+00:00,2025-07-01 07:06:48+00:00,71.0
+skywalking-mcp,Go,13,5,17.0,2025-05-11 14:19:00+00:00,2025-09-09 14:36:16+00:00,121.0
+hamilton-101,,0,0,0.0,,,
+openserverless-build,Dockerfile,0,1,53.0,2025-05-18 14:32:46+00:00,2025-06-07 20:10:05+00:00,20.0
+arrow-js,TypeScript,70,16,558.0,2025-05-14 07:36:11+00:00,2025-11-19 08:13:50+00:00,189.0
+openserverless-admin,,0,0,0.0,,,
+doris-opentelemetry-demo,TypeScript,6,4,1134.0,2022-04-26 19:53:45+00:00,2025-11-10 02:17:16+00:00,1293.0
+infrastructure-esp,Python,0,0,41.0,2025-05-20 15:59:13+00:00,2025-06-04 14:37:01+00:00,14.0
+spark-connect-rust,Rust,25,7,98.0,2023-09-18 13:32:20+00:00,2025-10-03 07:22:31+00:00,745.0
+flink-agents,Java,265,72,212.0,2025-06-08 14:44:01+00:00,2025-11-21 01:54:06+00:00,165.0
+sedona-testing,Python,5,3,11.0,2025-06-04 00:34:47+00:00,2025-10-08 04:38:50+00:00,126.0
+dubbo-helm-charts,,0,1,5.0,2025-06-15 10:30:38+00:00,2025-06-17 00:05:57+00:00,1.0
+arrow-swift,Swift,13,8,98.0,2025-05-23 07:50:49+00:00,2025-11-21 09:39:32+00:00,182.0
+airavata-portals,Python,3,7,10993.0,2011-07-09 19:21:43+00:00,2025-11-18 21:05:11+00:00,5246.0
+iggy-setup,TypeScript,0,1,2.0,2025-08-07 12:56:00+00:00,2025-08-08 16:59:38+00:00,1.0
+ranger-tools,Dockerfile,0,1,5.0,2025-06-18 17:59:43+00:00,2025-10-23 18:12:13+00:00,127.0
+netbeans-vscode,TypeScript,4,8,739.0,2019-09-06 08:05:43+00:00,2025-10-09 07:18:12+00:00,2224.0
+arrow-skyhook,C++,0,1,19.0,2025-06-16 07:17:42+00:00,2025-04-04 02:24:06+00:00,-74.0
+grails-gradle-publish,Groovy,2,0,63.0,2025-07-06 19:01:09+00:00,2025-10-14 12:31:39+00:00,99.0
+fluss-shaded,Java,2,1,4.0,2025-08-03 10:46:41+00:00,2025-08-07 09:14:13+00:00,3.0
+flink-connector-http,Java,4,1,134.0,2025-07-08 06:04:07+00:00,2025-11-12 18:08:49+00:00,127.0
+fluss-website,,1,2,3.0,2025-07-01 15:51:00+00:00,2025-07-11 13:46:00+00:00,9.0
+tooling-releases-client,Python,1,1,84.0,2025-07-08 17:40:47+00:00,2025-11-03 16:43:35+00:00,117.0
+fluss-benchmarks,,12,0,3.0,2025-08-04 02:59:42+00:00,2025-08-05 03:17:47+00:00,1.0
+echarts-mcp,JavaScript,50,3,2.0,2025-07-21 10:50:23+00:00,2025-07-21 10:55:34+00:00,0.0
+couchdb-cowlib,Erlang,0,0,58.0,2013-08-21 18:40:02+00:00,2015-11-16 16:14:14+00:00,816.0
+couchdb-gun,Erlang,0,0,250.0,2013-08-22 08:39:50+00:00,2020-08-25 09:23:11+00:00,2560.0
+openserverless-admin-api,Python,1,2,32.0,2025-07-26 20:31:56+00:00,2025-09-28 07:21:38+00:00,63.0
+tooling-asf-example,Python,0,1,42.0,2025-08-12 18:31:19+00:00,2025-11-20 10:58:14+00:00,99.0
+geaflow-website,TypeScript,2,4,15.0,2025-08-11 13:00:16+00:00,2025-11-19 09:35:18+00:00,99.0
+seatunnel-tools,Java,14,3,3.0,2025-08-14 07:55:28+00:00,2025-08-25 06:47:58+00:00,10.0
+apache-boxer-test,,1,0,0.0,,,
+openserverless-vscode-extension,TypeScript,0,0,31.0,2024-03-02 10:25:08+00:00,2024-09-10 09:37:18+00:00,191.0
+hertzbeat-collector-go,Go,20,10,37.0,2025-08-31 05:08:07+00:00,2025-11-11 12:05:37+00:00,72.0
+sedona-spatialbench,Rust,27,9,88.0,2025-08-29 08:04:52+00:00,2025-11-15 06:20:02+00:00,77.0
+sedona-db,Rust,331,30,390.0,2025-01-14 02:57:57+00:00,2025-11-22 04:38:10+00:00,312.0
+tooling-actions,Makefile,0,2,31.0,2025-08-22 13:23:12+00:00,2025-11-20 10:52:46+00:00,89.0
+fluss-rust,Rust,16,9,16.0,2025-08-25 09:31:09+00:00,2025-10-21 07:04:50+00:00,56.0
+tvm-ffi,C++,190,37,328.0,2025-05-06 23:18:33+00:00,2025-11-22 01:01:22+00:00,199.0
+lucenenet-extensions,,0,0,0.0,,,
+datafusion-sandbox,Rust,1,0,11798.0,2016-02-05 20:08:35+00:00,2025-11-12 18:14:46+00:00,3567.0
+grails-website,,1,3,25379.0,2005-07-02 21:51:31+00:00,2025-11-22 10:14:16+00:00,7447.0
+cloudstack-extensions,,2,0,2.0,2025-09-23 09:21:43+00:00,2025-09-23 09:22:20+00:00,0.0
+grails-gradle-codestyle,,0,0,0.0,,,
+solr-mcp,Java,3,3,108.0,2025-07-06 02:01:26+00:00,2025-11-16 17:47:13+00:00,133.0
+incubator-texera-site,CSS,1,1,59.0,2025-10-18 06:15:19+00:00,2025-11-20 00:08:20+00:00,32.0
+opendal-ofs,Rust,22,2,138.0,2022-02-14 05:19:15+00:00,2025-11-20 03:37:30+00:00,1374.0
+opendal-oli,Rust,7,2,162.0,2022-02-14 05:19:15+00:00,2025-11-20 03:58:35+00:00,1374.0
+openserverless-devcontainer,Python,0,2,3.0,2025-11-09 02:45:12+00:00,2025-11-09 16:41:29+00:00,0.0
+phoenix-adapters,Java,1,2,194.0,2025-11-03 23:38:42+00:00,2025-11-20 15:52:28+00:00,16.0
+rocketmq-a2a,,0,0,2.0,2025-11-21 07:57:16+00:00,2025-11-21 08:08:39+00:00,0.0
+infrastructure-staged,Python,0,1,14.0,2025-11-07 17:33:56+00:00,2025-11-17 23:10:38+00:00,10.0

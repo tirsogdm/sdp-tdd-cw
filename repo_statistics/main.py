@@ -101,9 +101,15 @@ def process_repo(repo):
 
     try:
         n_commits, latest_commit_date, oldest_commit_date = fetchCommitData(ORG, name)
+        logging.info(f"Successfully fetched commit data of {repo}")
     except requests.exceptions.HTTPError as e:
-        logging.warning(f"Failed to get commit data of {name}: {e}")
-        n_commits, latest_commit_date, oldest_commit_date = None, None, None
+        msg = str(e)
+        if msg == "409 Git Repository is empty.":
+            logging.info(f"Repo {name} has no commit data")
+            n_commits, latest_commit_date, oldest_commit_date = 0, None, None
+        else:
+            logging.warning(f"Failed to get commit data of {name}: {e}")
+            n_commits, latest_commit_date, oldest_commit_date = None, None, None
 
     return {
         "repo": name,
