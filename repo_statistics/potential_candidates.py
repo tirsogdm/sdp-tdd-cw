@@ -1,6 +1,7 @@
 import argparse
 import logging
 import os
+import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import pandas as pd
@@ -23,6 +24,17 @@ args = parser.parse_args()
 
 HEADERS = {"Authorization": f"token {args.token}"}
 ORG = args.org
+
+TEST_FILENAME_PATTERNS = [
+    r"^.*Test\.java$",
+    r"^.*Tests\.java$",
+    r"^.*TestCase\.java$",
+    r"^.*IT\.java$",
+    r"^.*ITCase\.java$",
+    r"^.*Spec\.java$",
+    r"^Test.*\.java$",
+]
+TEST_FILENAME_REGEX = [re.compile(pattern) for pattern in TEST_FILENAME_PATTERNS]
 
 # Logging config
 logging.basicConfig(
@@ -137,10 +149,8 @@ def check_repo_structure(repo_data):
 
                     java_count += 1
 
-                    # Java test files (2 options)
-                    if filename.endswith("Test.java") or filename.endswith(
-                        "Tests.java"
-                    ):
+                    # Java test files (broader pattern set)
+                    if any(pattern.match(filename) for pattern in TEST_FILENAME_REGEX):
                         test_count += 1
 
             stats["java_files"] = java_count
