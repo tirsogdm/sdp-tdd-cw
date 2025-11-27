@@ -11,9 +11,9 @@ OUTPUT_FILE = "final_java_candidates.csv"
 # Ensures project has sufficient complexitity to warrant TDD also removes emtpy wrappers or templates.
 MIN_JAVA_FILES = 50
 # Filters out projects with trivial testing implementation.
-MIN_TEST_RATIO = 0.10
+# MIN_TEST_RATIO = 0
 # Removes repositories which are purely test suites.
-MAX_TEST_RATIO = 0.90
+# MAX_TEST_RATIO = 1
 
 
 def print_final_list():
@@ -32,13 +32,14 @@ def print_final_list():
     # Checking for Java files and test ratio
     quality_candidates = candidates[
         (candidates["java_files"] > MIN_JAVA_FILES)
-        & (candidates["test_ratio"] > MIN_TEST_RATIO)
-        & (candidates["test_ratio"] < MAX_TEST_RATIO)
+        # & (candidates["test_ratio"] >= MIN_TEST_RATIO)
+        # & (candidates["test_ratio"] <= MAX_TEST_RATIO)
     ].copy()
 
     print(f"Repositories after Quality Filtering: {len(quality_candidates)}")
     print(
-        f" (Criteria: >{MIN_JAVA_FILES} files, {MIN_TEST_RATIO}-{MAX_TEST_RATIO} test ratio)"
+        # f" (Criteria: >{MIN_JAVA_FILES} files, {MIN_TEST_RATIO}-{MAX_TEST_RATIO} test ratio)"
+        f" (Criteria: >{MIN_JAVA_FILES} files)"
     )
 
     # Sort by Test Ratio (Descending)
