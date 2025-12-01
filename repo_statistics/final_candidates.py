@@ -61,6 +61,16 @@ def print_final_list():
     final_list[cols + remaining].to_csv(OUTPUT_FILE, index=False)
     print(f"Final Shortlist saved to: {OUTPUT_FILE}")
 
+    # Split into 5 parts 
+    num_parts = 5
+    chunk_size = (len(final_list) + num_parts - 1) // num_parts  # ceiling division
+
+    for i in range(num_parts):
+        part = final_list.iloc[i * chunk_size : (i + 1) * chunk_size]
+        if not part.empty:
+            part_file = f"final_java_candidates_part{i+1}.csv"
+            part.to_csv(part_file, index=False)
+            print(f"Saved part {i+1}: {part_file}")
 
 if __name__ == "__main__":
     print_final_list()
