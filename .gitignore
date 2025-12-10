@@ -12,4 +12,6 @@ dist/
 
 *.log
 
+repos/
+
 .DS_Store
