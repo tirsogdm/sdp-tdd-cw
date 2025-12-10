@@ -1279,9 +1279,10 @@ class ParallelAnalyzer:
         to: datetime = None,
         max_commits_per_repo: int = None,
         verbose: bool = False,
-    ) -> list[RepositoryAnalysis]:
+    ) -> tuple[list[RepositoryAnalysis], float]:
         results = []
         failed_repos = []
+        actual_time_start = time.time()
 
         logger.info(f"Starting analysis of {len(repos)} repositories...")
 
@@ -1333,11 +1334,13 @@ class ParallelAnalyzer:
             for name, error in failed_repos:
                 logger.warning(f"  - {name}: {error[:100]}")
 
+        total_time = time.time() - actual_time_start
         logger.info(
-            f"Analysis complete: {len(results) - len(failed_repos)}/{len(repos)} successful"
+            f"Analysis complete: {len(results) - len(failed_repos)}/{len(repos)} successful "
+            f"in {total_time:.1f}s"
         )
 
-        return results
+        return results, total_time
 
 
 # =============================================================================
@@ -1654,17 +1657,23 @@ class JSONReportGenerator:
     """Generates JSON reports."""
 
     @staticmethod
-    def generate_report(analyses: list[RepositoryAnalysis], output_path: str):
+    def generate_report(
+        analyses: list[RepositoryAnalysis],
+        output_path: str,
+        total_time: float = None,
+    ):
 
         valid_analyses = [a for a in analyses if a.error is None]
+
+        # Total cpu time (sum of all individual times)
+        total_cpu_time = sum(a.analysis_duration_seconds for a in analyses)
 
         report = {
             "analysis_date": datetime.now().isoformat(),
             "total_repositories": len(analyses),
             "successfully_analyzed": len(valid_analyses),
-            "total_analysis_duration_seconds": sum(
-                a.analysis_duration_seconds for a in analyses
-            ),
+            "total_time_seconds": total_time,
+            "total_cpu_time": total_cpu_time,
             "aggregate_statistics": {},
             "repository_analyses": [],
         }
@@ -1703,7 +1712,7 @@ class JSONReportGenerator:
             }
 
         # NOTE: Change value for debugging if needed
-        # Removes the entire list of unmatched test files from the JSON
+        # Removes the complete list of unmatched test files from the JSON
         for analysis in analyses:
             analysis_dict = asdict(analysis)
             # Remove large lists from JSON
@@ -1712,10 +1721,15 @@ class JSONReportGenerator:
                     "unmatched_tests_details"
                 ][:100]
                 analysis_dict["unmatched_tests_truncated"] = True
+            # Removes commit_stats CSV information from JSON for the time being
+            analysis_dict.pop("commit_stats", None)
+
             report["repository_analyses"].append(analysis_dict)
 
         with open(output_path, "w") as f:
-            json.dump(report, f, indent=2, default=str)
+            # json.dump(report, f, indent=2, default=str)
+            # No pre-formatting using whitepsaces
+            json.dump(report, f, separators=(",", ":"), default=str)
 
         logger.info(f"JSON report saved to {output_path}")
 
@@ -1725,7 +1739,7 @@ class JSONReportGenerator:
 # =============================================================================
 
 
-def print_console_summary(analyses: list[RepositoryAnalysis]):
+def print_console_summary(analyses: list[RepositoryAnalysis], total_time: float = None):
     """Print a formatted summary to console."""
 
     print("\n" + "=" * 100)
@@ -1734,10 +1748,10 @@ def print_console_summary(analyses: list[RepositoryAnalysis]):
 
     valid = [a for a in analyses if a.error is None]
 
-    total_duration = sum(a.analysis_duration_seconds for a in analyses)
+    # total_duration = sum(a.analysis_duration_seconds for a in analyses)
     print(f"\nRepositories Analyzed: {len(valid)}/{len(analyses)}")
     print(
-        f"Total Analysis Time: {total_duration:.1f} seconds ({total_duration/60:.1f} minutes)"
+        f"Total Analysis Time: {total_time:.1f} seconds ({total_time/60:.1f} minutes)"
     )
 
     if not valid:
@@ -1945,7 +1959,7 @@ def main():
         print(f"  {i}. {repo['name']} ({repo['path']})")
 
     analyzer = ParallelAnalyzer(max_workers=args.workers)
-    analyses = analyzer.analyze_repositories(
+    analyses, total_time = analyzer.analyze_repositories(
         repos,
         since=since,
         to=to,
@@ -1964,9 +1978,9 @@ def main():
     if not args.no_unmatched:
         CSVReportGenerator.generate_unmatched_csv(analyses, unmatched_csv)
     CSVReportGenerator.generate_commits_csv(analyses, commits_csv)
-    JSONReportGenerator.generate_report(analyses, json_report)
+    JSONReportGenerator.generate_report(analyses, json_report, total_time)
 
-    print_console_summary(analyses)
+    print_console_summary(analyses, total_time)
 
     print("\nOutput files:")
     print(f"  - {pairs_csv}:      All test-production pairs")
