@@ -1,5 +1,9 @@
 import os
 import requests
+import subprocess
+from pathlib import Path
+from pydriller.git import Git
+from pydriller import Repository
 
 GITHUB_API_URL = "https://api.github.com"
 
@@ -20,9 +24,9 @@ def fetch_apache_repos(max_repos=None):
     params = {"per_page": 100, "page": 1, "type": "public"}
 
     while True:
-        resp = requests.get(url, headers=headers, params=params)
-        resp.raise_for_status()
-        batch = resp.json()
+        res = requests.get(url, headers=headers, params=params)
+        res.raise_for_status()
+        batch = res.json()
         if not batch:
             break
         repos.extend(batch)
@@ -109,24 +113,95 @@ def filter_repos(
 
     return filtered
 
+def clone_or_update_repo(repo_name, base_dir="repos"):
+    base = Path(base_dir)
+    base.mkdir(exist_ok=True)
+    local_path = base / repo_name.replace("/", "__")
+
+    if not local_path.exists():
+        print(f"Cloning {repo_name}...")
+        subprocess.run(["git", "clone", f"https://github.com/{repo_name}.git", str(local_path)], check=True)
+    else:
+        print(f"Updating {repo_name}...")
+        subprocess.run(["git", "-C", str(local_path), "fetch", "--all", "--prune"], check=True)
+
+    return local_path
+
+def choose_main_branch(branches):
+    """
+    """
+    if "main" in branches:
+        return "main"
+    if "master" in branches:
+        return "master"
+    return branches[0] if branches else None
+
+"""
+Potential issue:
+- This approach to search for unreachable branches can also include branches that have been rebased.
+"""
+def get_unreachable_branches(repo_path):
+    g = Git(str(repo_path))
+    repo = g.repo
+
+    remote = repo.remotes.origin
+    remote_branches = []
+    for ref in remote.refs:
+        if ref.remote_head == "HEAD":
+            continue
+
+        remote_branches.append(ref.remote_head)
+
+    if not remote_branches:
+        return None, []
+    
+    main_short = choose_main_branch(remote_branches)
+    main_ref = f"origin/{main_short}"
+
+    main_commits = {
+        c.hash for c in Repository(str(repo_path), only_in_branch=main_ref).traverse_commits()
+    }
+
+    results = []
+    for br_short in remote_branches:
+        ref_obj = next(r for r in remote.refs if r.remote_head == br_short)
+        head_hash = ref_obj.commit.hexsha
+
+        reachable = head_hash in main_commits
+        results.append({"branch": br_short, "head": head_hash, "reachable": reachable})
+
+    return main_short, results
+
+def iter_commits_for_branch(repo_path, branch):
+    repo = Repository(str(repo_path), only_in_branch=branch)
+    for commit in repo.traverse_commits():
+        yield commit
+
+
 if __name__ == "__main__":
-    repos = fetch_apache_repos(max_repos=200)
-    print(f"Fetched {len(repos)} repos.")
+    # 1) Fetch & filter some Apache repos
+    repos = fetch_apache_repos(max_repos=20)
+    filtered_repos = filter_repos(repos, language="Java")
+    print(f"After filtering, {len(filtered_repos)} repos remain.")
 
-    filtered_repos = filter_repos(
-        repos,
-        language="Java"
-    )
+    # 2) Take first repo as an example
+    if not filtered_repos:
+        raise SystemExit("No repositories matched the filtering criteria.")
 
-    print(f"After filtering, {len(filtered_repos)} repos remain. Removed {len(repos) - len(filtered_repos)}.")
+    example = filtered_repos[0]
+    full_name = example["full_name"]
+    print(f"Analysing repository: {full_name}")
 
-    for r in filtered_repos:
-        full_name = r["full_name"]
-        test_dir = has_test_dir(full_name) # TODO: Probably want to incorporate this check into the filtering step above
-        print(
-            full_name,
-            "| lang:", r["language"],
-            "| size:", r["size"],
-            "| license:", (r["license"]["spdx_id"] if r["license"] else "None"),
-            "| has test dir:", test_dir
-        )
+    # 3) Clone/update repo and analyse branches
+    local_path = clone_or_update_repo(full_name)
+    main_branch, branch_info = get_unreachable_branches(local_path)
+
+    print(f"Main branch: {main_branch}")
+    print("Branches and reachability from main")
+
+    for info in branch_info:
+        br = info["branch"]
+        head_hash = info["head"]
+        reachable = info["reachable"]
+        status = "reachable" if reachable else "NOT reachable"
+        print(f"  {br:20s} {head_hash[:7]} -> {status}")
